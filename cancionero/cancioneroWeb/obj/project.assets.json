@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Lenovo\\.nuget\\packages\\": {}
+    "C:\\Users\\Luis\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\cancioneroWeb.csproj",
+      "projectUniqueName": "C:\\Users\\Luis\\Source\\Repos\\cancionero\\cancionero\\cancioneroWeb\\cancioneroWeb.csproj",
       "projectName": "cancioneroWeb",
-      "projectPath": "C:\\Users\\Lenovo\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\cancioneroWeb.csproj",
-      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lenovo\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\obj\\",
+      "projectPath": "C:\\Users\\Luis\\Source\\Repos\\cancionero\\cancionero\\cancioneroWeb\\cancioneroWeb.csproj",
+      "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Luis\\Source\\Repos\\cancionero\\cancionero\\cancioneroWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Luis\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
