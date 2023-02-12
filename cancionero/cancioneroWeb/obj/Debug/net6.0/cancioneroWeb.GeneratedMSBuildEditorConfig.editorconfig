@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Luis\Source\Repos\cancionero\cancionero\cancioneroWeb
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Luis/Source/Repos/cancionero/cancionero/cancioneroWeb/Pages/BuscarCancion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnVzY2FyQ2FuY2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Luis/Source/Repos/cancionero/cancionero/cancioneroWeb/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
