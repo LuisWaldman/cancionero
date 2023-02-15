@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\cancioneroWeb.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Luis\\Source\\Repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\PreIndex.html",
+      "PackagePath": "staticwebassets\\PreIndex.html"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\Source\\Repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\Prebusqueda.html",
+      "PackagePath": "staticwebassets\\Prebusqueda.html"
+    },
+    {
       "Id": "C:\\Users\\Luis\\Source\\Repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

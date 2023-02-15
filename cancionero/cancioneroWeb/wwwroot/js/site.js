@@ -1,4 +1,19 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿Datos =
+{
+    EditandoCancion: {
+        Nombre: "Homero",
+        Autor: "Viejas Locas",
+        Tempo: 110,
+        Escala: "Sol"
+    },
+    message: 'Hello Eva!'
+}
 
-// Write your JavaScript code.
+
+const { createApp } = Vue
+
+createApp({
+    data() {
+        return Datos;
+    }
+}).mount('#app')

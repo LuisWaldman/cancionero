@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luis\\Source\\Repos\\cancionero\\cancionero\\cancioneroWeb\\cancioneroWeb.csproj": {}
+    "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\cancioneroWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Luis\\Source\\Repos\\cancionero\\cancionero\\cancioneroWeb\\cancioneroWeb.csproj": {
+    "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\cancioneroWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luis\\Source\\Repos\\cancionero\\cancionero\\cancioneroWeb\\cancioneroWeb.csproj",
+        "projectUniqueName": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\cancioneroWeb.csproj",
         "projectName": "cancioneroWeb",
-        "projectPath": "C:\\Users\\Luis\\Source\\Repos\\cancionero\\cancionero\\cancioneroWeb\\cancioneroWeb.csproj",
+        "projectPath": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\cancioneroWeb.csproj",
         "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luis\\Source\\Repos\\cancionero\\cancionero\\cancioneroWeb\\obj\\",
+        "outputPath": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Luis\\AppData\\Roaming\\NuGet\\NuGet.Config",

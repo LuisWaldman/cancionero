@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eK60lsEDJ+AxkvgZ8d5I2nc92iUBkCJhdXDJls6EMAw=",
+  "Hash": "kl3HncfWlZmBLdYJhQGHcp2YKkE7J/ULYlYAEVUMyqQ=",
   "Source": "cancioneroWeb",
   "BasePath": "_content/cancioneroWeb",
   "Mode": "Default",
@@ -1069,6 +1069,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Luis\\Source\\Repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\Prebusqueda.html",
+      "SourceId": "cancioneroWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Luis\\Source\\Repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\",
+      "BasePath": "_content/cancioneroWeb",
+      "RelativePath": "Prebusqueda.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Prebusqueda.html"
+    },
+    {
+      "Identity": "C:\\Users\\Luis\\Source\\Repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\PreIndex.html",
+      "SourceId": "cancioneroWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Luis\\Source\\Repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\",
+      "BasePath": "_content/cancioneroWeb",
+      "RelativePath": "PreIndex.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PreIndex.html"
     }
   ]
 }
