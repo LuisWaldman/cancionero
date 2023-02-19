@@ -32,6 +32,14 @@ body {
   display: flex;
 }
 .divNombre {
-  width: 500px;
+  width: 400px;
 
+}
+
+#containerCancion {
+    margin-left: 15px;
+}
+
+.header {
+  display: flex;
 }
