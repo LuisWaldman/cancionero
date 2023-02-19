@@ -1,0 +1,51 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+#containerCancion {
+}
+
+.clsVerso {
+}
+
+.clsCompas {
+}
+
+
+.clsNotas {
+   
+}
+
+.clsNota {
+    display: inline-flex;
+    width: 80px;
+}
+
+.clsacordes {
+  display: flex;
+
+}
+
+.clsacorde {
+  display: inline-flex;
+  width: 80px;
+}
+
+.clspartecancion {
+  margin-bottom: 10px;
+}

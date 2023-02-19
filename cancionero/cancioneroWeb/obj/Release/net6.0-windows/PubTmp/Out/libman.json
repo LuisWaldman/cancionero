@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "tone@14.8.49",
+      "destination": "wwwroot/lib/tone/"
+    }
+  ]
+}

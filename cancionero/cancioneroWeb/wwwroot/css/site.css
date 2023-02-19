@@ -16,3 +16,22 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+
+.clsNotas {
+    display: flex;
+}
+
+.clsNota {
+    width: 100px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.PanelNombre { 
+  display: flex;
+}
+.divNombre {
+  width: 500px;
+
+}

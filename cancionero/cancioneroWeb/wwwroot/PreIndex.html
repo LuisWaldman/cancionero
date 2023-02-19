@@ -4,14 +4,46 @@
     <meta charset="utf-8" />
     <title></title>
     <link href="css/site.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.0/css/all.css">
+
 </head>
 <body>
 
     <div id="app">
-        <h1>{{ EditandoCancion.Nombre }}</h1>
-        <h2>{{ EditandoCancion.Autor }}</h2>
-    
+        <div  class="PanelNombre">
+            <div class="divNombre">
+
+                    {{ EditandoCancion.Nombre }}
+            </div>
+            <div>
+                <button>
+                    <i class="fas fa-arrows-rotate"></i>
+                </button>
+            </div>
+        </div>
         
+        
+        <h2>{{ EditandoCancion.Autor }}</h2>
+        <div id="containerCancion">
+            <div v-for="parte in EditandoCancion.PartesCancion" class="clspartecancion">
+                <div v-for="p in parte">
+
+                    
+                    <div class="clsNotas" v-if="p.Notas.length > 0">
+                        <div class="clsNota" v-for="nota in p.Notas">
+                            {{ nota.Nombre }}
+                        </div>
+                        
+                    </div>
+
+                    <div>
+                        {{ p.Texto }}
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+                
     </div>
 
 

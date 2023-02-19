@@ -1,0 +1,8 @@
+C:\Users\Luis\source\repos\cancionero\cancionero\cancioneroWeb\obj\Release\net6.0-windows\PubTmp\Out\cancioneroWeb.exe
+C:\Users\Luis\source\repos\cancionero\cancionero\cancioneroWeb\obj\Release\net6.0-windows\PubTmp\Out\appsettings.Development.json
+C:\Users\Luis\source\repos\cancionero\cancionero\cancioneroWeb\obj\Release\net6.0-windows\PubTmp\Out\appsettings.json
+C:\Users\Luis\source\repos\cancionero\cancionero\cancioneroWeb\obj\Release\net6.0-windows\PubTmp\Out\libman.json
+C:\Users\Luis\source\repos\cancionero\cancionero\cancioneroWeb\obj\Release\net6.0-windows\PubTmp\Out\cancioneroWeb.dll
+C:\Users\Luis\source\repos\cancionero\cancionero\cancioneroWeb\obj\Release\net6.0-windows\PubTmp\Out\cancioneroWeb.deps.json
+C:\Users\Luis\source\repos\cancionero\cancionero\cancioneroWeb\obj\Release\net6.0-windows\PubTmp\Out\cancioneroWeb.runtimeconfig.json
+C:\Users\Luis\source\repos\cancionero\cancionero\cancioneroWeb\obj\Release\net6.0-windows\PubTmp\Out\cancioneroWeb.pdb
