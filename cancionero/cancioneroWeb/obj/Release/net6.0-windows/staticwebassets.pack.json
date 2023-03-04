@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\cancioneroWeb.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\Basic.html",
+      "PackagePath": "staticwebassets\\Basic.html"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\MIDI.js-master.zip",
+      "PackagePath": "staticwebassets\\MIDI.js-master.zip"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\MIDIPlayer.html",
+      "PackagePath": "staticwebassets\\MIDIPlayer.html"
+    },
+    {
       "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\PreIndex.html",
       "PackagePath": "staticwebassets\\PreIndex.html"
     },
@@ -13,20 +25,1064 @@
       "PackagePath": "staticwebassets\\Prebusqueda.html"
     },
     {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\WhitneyMusicBox.html",
+      "PackagePath": "staticwebassets\\WhitneyMusicBox.html"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\build\\MIDI.js",
+      "PackagePath": "staticwebassets\\build\\MIDI.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\build\\MIDI.min.js",
+      "PackagePath": "staticwebassets\\build\\MIDI.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\componentes\\nota.vue",
+      "PackagePath": "staticwebassets\\componentes\\nota.vue"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\css\\MIDIPlayer.css",
+      "PackagePath": "staticwebassets\\css\\MIDIPlayer.css"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\css\\all.css",
+      "PackagePath": "staticwebassets\\css\\all.css"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
       "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\Basic.html",
+      "PackagePath": "staticwebassets\\examples\\Basic.html"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\MIDIPlayer.html",
+      "PackagePath": "staticwebassets\\examples\\MIDIPlayer.html"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\WhitneyMusicBox.html",
+      "PackagePath": "staticwebassets\\examples\\WhitneyMusicBox.html"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\css\\MIDIPlayer.css",
+      "PackagePath": "staticwebassets\\examples\\css\\MIDIPlayer.css"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\images\\backward.png",
+      "PackagePath": "staticwebassets\\examples\\images\\backward.png"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\images\\forward.png",
+      "PackagePath": "staticwebassets\\examples\\images\\forward.png"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\images\\pause.png",
+      "PackagePath": "staticwebassets\\examples\\images\\pause.png"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\images\\play.png",
+      "PackagePath": "staticwebassets\\examples\\images\\play.png"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\images\\shiverMeTimbers.gif",
+      "PackagePath": "staticwebassets\\examples\\images\\shiverMeTimbers.gif"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\images\\stop.png",
+      "PackagePath": "staticwebassets\\examples\\images\\stop.png"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\images\\tuna.png",
+      "PackagePath": "staticwebassets\\examples\\images\\tuna.png"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\inc\\colorspace.js",
+      "PackagePath": "staticwebassets\\examples\\inc\\colorspace.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\inc\\event.js",
+      "PackagePath": "staticwebassets\\examples\\inc\\event.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\inc\\timer.js",
+      "PackagePath": "staticwebassets\\examples\\inc\\timer.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3.js",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\A0.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\A0.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\A1.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\A1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\A2.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\A2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\A3.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\A3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\A4.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\A4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\A5.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\A5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\A6.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\A6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\A7.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\A7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab1.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab2.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab3.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab4.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab5.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab6.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab7.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\B0.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\B0.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\B1.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\B1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\B2.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\B2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\B3.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\B3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\B4.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\B4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\B5.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\B5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\B6.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\B6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\B7.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\B7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb0.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb0.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb1.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb2.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb3.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb4.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb5.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb6.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb7.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\C1.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\C1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\C2.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\C2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\C3.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\C3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\C4.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\C4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\C5.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\C5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\C6.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\C6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\C7.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\C7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\C8.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\C8.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\D1.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\D1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\D2.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\D2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\D3.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\D3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\D4.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\D4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\D5.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\D5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\D6.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\D6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\D7.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\D7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db1.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db2.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db3.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db4.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db5.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db6.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db7.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db8.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db8.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\E1.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\E1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\E2.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\E2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\E3.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\E3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\E4.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\E4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\E5.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\E5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\E6.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\E6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\E7.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\E7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb1.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb2.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb3.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb4.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb5.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb6.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb7.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\F1.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\F1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\F2.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\F2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\F3.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\F3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\F4.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\F4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\F5.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\F5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\F6.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\F6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\F7.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\F7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\G1.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\G1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\G2.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\G2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\G3.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\G3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\G4.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\G4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\G5.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\G5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\G6.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\G6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\G7.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\G7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb1.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb2.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb3.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb4.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb5.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb6.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb7.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\acoustic_grand_piano-ogg.js",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\acoustic_grand_piano-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3.js",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\A0.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\A0.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\A1.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\A1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\A2.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\A2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\A3.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\A3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\A4.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\A4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\A5.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\A5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\A6.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\A6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\A7.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\A7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Ab1.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Ab1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Ab2.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Ab2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Ab3.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Ab3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Ab4.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Ab4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Ab5.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Ab5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Ab6.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Ab6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Ab7.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Ab7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\B0.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\B0.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\B1.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\B1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\B2.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\B2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\B3.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\B3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\B4.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\B4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\B5.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\B5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\B6.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\B6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\B7.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\B7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Bb0.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Bb0.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Bb1.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Bb1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Bb2.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Bb2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Bb3.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Bb3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Bb4.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Bb4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Bb5.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Bb5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Bb6.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Bb6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Bb7.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Bb7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\C1.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\C1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\C2.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\C2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\C3.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\C3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\C4.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\C4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\C5.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\C5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\C6.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\C6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\C7.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\C7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\C8.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\C8.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\D1.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\D1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\D2.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\D2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\D3.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\D3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\D4.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\D4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\D5.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\D5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\D6.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\D6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\D7.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\D7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Db1.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Db1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Db2.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Db2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Db3.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Db3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Db4.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Db4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Db5.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Db5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Db6.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Db6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Db7.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Db7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\E1.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\E1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\E2.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\E2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\E3.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\E3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\E4.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\E4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\E5.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\E5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\E6.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\E6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\E7.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\E7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Eb1.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Eb1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Eb2.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Eb2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Eb3.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Eb3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Eb4.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Eb4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Eb5.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Eb5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Eb6.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Eb6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Eb7.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Eb7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\F1.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\F1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\F2.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\F2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\F3.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\F3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\F4.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\F4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\F5.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\F5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\F6.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\F6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\F7.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\F7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\G1.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\G1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\G2.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\G2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\G3.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\G3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\G4.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\G4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\G5.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\G5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\G6.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\G6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\G7.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\G7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Gb1.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Gb1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Gb2.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Gb2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Gb3.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Gb3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Gb4.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Gb4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Gb5.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Gb5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Gb6.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Gb6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-mp3\\Gb7.mp3",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-mp3\\Gb7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\examples\\soundfont\\synth_drum-ogg.js",
+      "PackagePath": "staticwebassets\\examples\\soundfont\\synth_drum-ogg.js"
     },
     {
       "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\generator\\nodejs\\packageWAVs.js",
+      "PackagePath": "staticwebassets\\generator\\nodejs\\packageWAVs.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\generator\\ruby\\soundfont_builder.rb",
+      "PackagePath": "staticwebassets\\generator\\ruby\\soundfont_builder.rb"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\images\\backward.png",
+      "PackagePath": "staticwebassets\\images\\backward.png"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\images\\bajistazurdo.png",
+      "PackagePath": "staticwebassets\\images\\bajistazurdo.png"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\images\\baterista.png",
+      "PackagePath": "staticwebassets\\images\\baterista.png"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\images\\forward.png",
+      "PackagePath": "staticwebassets\\images\\forward.png"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\images\\pause.png",
+      "PackagePath": "staticwebassets\\images\\pause.png"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\images\\pianista.png",
+      "PackagePath": "staticwebassets\\images\\pianista.png"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\images\\play.png",
+      "PackagePath": "staticwebassets\\images\\play.png"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\images\\shiverMeTimbers.gif",
+      "PackagePath": "staticwebassets\\images\\shiverMeTimbers.gif"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\images\\stop.png",
+      "PackagePath": "staticwebassets\\images\\stop.png"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\images\\tuna.png",
+      "PackagePath": "staticwebassets\\images\\tuna.png"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\inc\\colorspace.js",
+      "PackagePath": "staticwebassets\\inc\\colorspace.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\inc\\event.js",
+      "PackagePath": "staticwebassets\\inc\\event.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\inc\\jasmid\\LICENSE",
+      "PackagePath": "staticwebassets\\inc\\jasmid"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\inc\\jasmid\\midifile.js",
+      "PackagePath": "staticwebassets\\inc\\jasmid\\midifile.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\inc\\jasmid\\replayer.js",
+      "PackagePath": "staticwebassets\\inc\\jasmid\\replayer.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\inc\\jasmid\\stream.js",
+      "PackagePath": "staticwebassets\\inc\\jasmid\\stream.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\inc\\shim\\Base64.js",
+      "PackagePath": "staticwebassets\\inc\\shim\\Base64.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\inc\\shim\\Base64binary.js",
+      "PackagePath": "staticwebassets\\inc\\shim\\Base64binary.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\inc\\shim\\WebAudioAPI.js",
+      "PackagePath": "staticwebassets\\inc\\shim\\WebAudioAPI.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\inc\\shim\\WebMIDIAPI.js",
+      "PackagePath": "staticwebassets\\inc\\shim\\WebMIDIAPI.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\inc\\timer.js",
+      "PackagePath": "staticwebassets\\inc\\timer.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\inc\\tuna\\README.md",
+      "PackagePath": "staticwebassets\\inc\\tuna\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\inc\\tuna\\impulses\\Sweetspot1M.wav",
+      "PackagePath": "staticwebassets\\inc\\tuna\\impulses\\Sweetspot1M.wav"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\inc\\tuna\\impulses\\impulse_guitar.wav",
+      "PackagePath": "staticwebassets\\inc\\tuna\\impulses\\impulse_guitar.wav"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\inc\\tuna\\impulses\\impulse_rev.wav",
+      "PackagePath": "staticwebassets\\inc\\tuna\\impulses\\impulse_rev.wav"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\inc\\tuna\\impulses\\ir_rev_short.wav",
+      "PackagePath": "staticwebassets\\inc\\tuna\\impulses\\ir_rev_short.wav"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\inc\\tuna\\tuna.js",
+      "PackagePath": "staticwebassets\\inc\\tuna\\tuna.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
       "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\indice.json",
       "PackagePath": "staticwebassets\\indice.json"
     },
     {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\AppCancionero.js",
+      "PackagePath": "staticwebassets\\js\\AppCancionero.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\bootstrap.bundle.css.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.css.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\inc\\jasmid\\LICENSE",
+      "PackagePath": "staticwebassets\\js\\inc\\jasmid"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\inc\\jasmid\\midifile.js",
+      "PackagePath": "staticwebassets\\js\\inc\\jasmid\\midifile.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\inc\\jasmid\\replayer.js",
+      "PackagePath": "staticwebassets\\js\\inc\\jasmid\\replayer.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\inc\\jasmid\\stream.js",
+      "PackagePath": "staticwebassets\\js\\inc\\jasmid\\stream.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\inc\\shim\\Base64.js",
+      "PackagePath": "staticwebassets\\js\\inc\\shim\\Base64.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\inc\\shim\\Base64binary.js",
+      "PackagePath": "staticwebassets\\js\\inc\\shim\\Base64binary.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\inc\\shim\\WebAudioAPI.js",
+      "PackagePath": "staticwebassets\\js\\inc\\shim\\WebAudioAPI.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\inc\\shim\\WebMIDIAPI.js",
+      "PackagePath": "staticwebassets\\js\\inc\\shim\\WebMIDIAPI.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\inc\\tuna\\README.md",
+      "PackagePath": "staticwebassets\\js\\inc\\tuna\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\inc\\tuna\\impulses\\Sweetspot1M.wav",
+      "PackagePath": "staticwebassets\\js\\inc\\tuna\\impulses\\Sweetspot1M.wav"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\inc\\tuna\\impulses\\impulse_guitar.wav",
+      "PackagePath": "staticwebassets\\js\\inc\\tuna\\impulses\\impulse_guitar.wav"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\inc\\tuna\\impulses\\impulse_rev.wav",
+      "PackagePath": "staticwebassets\\js\\inc\\tuna\\impulses\\impulse_rev.wav"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\inc\\tuna\\impulses\\ir_rev_short.wav",
+      "PackagePath": "staticwebassets\\js\\inc\\tuna\\impulses\\ir_rev_short.wav"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\inc\\tuna\\tuna.js",
+      "PackagePath": "staticwebassets\\js\\inc\\tuna\\tuna.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\instrumentos.js",
+      "PackagePath": "staticwebassets\\js\\instrumentos.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\midi\\audioDetect.js",
+      "PackagePath": "staticwebassets\\js\\midi\\audioDetect.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\midi\\gm.js",
+      "PackagePath": "staticwebassets\\js\\midi\\gm.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\midi\\loader.js",
+      "PackagePath": "staticwebassets\\js\\midi\\loader.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\midi\\player.js",
+      "PackagePath": "staticwebassets\\js\\midi\\player.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\midi\\plugin.audiotag.js",
+      "PackagePath": "staticwebassets\\js\\midi\\plugin.audiotag.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\midi\\plugin.webaudio.js",
+      "PackagePath": "staticwebassets\\js\\midi\\plugin.webaudio.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\midi\\plugin.webmidi.js",
+      "PackagePath": "staticwebassets\\js\\midi\\plugin.webmidi.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\midi\\synesthesia.js",
+      "PackagePath": "staticwebassets\\js\\midi\\synesthesia.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\pianista.js",
+      "PackagePath": "staticwebassets\\js\\pianista.js"
+    },
+    {
       "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\util\\dom_request_script.js",
+      "PackagePath": "staticwebassets\\js\\util\\dom_request_script.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\util\\dom_request_xhr.js",
+      "PackagePath": "staticwebassets\\js\\util\\dom_request_xhr.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\vue.global.js",
+      "PackagePath": "staticwebassets\\js\\vue.global.js"
     },
     {
       "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\jsonSpotify\\abuelos\\asi_es_el_calor.json",
@@ -12205,6 +13261,14 @@
       "PackagePath": "staticwebassets\\json\\autenticos\\yo_no_soy_tu_prisionero.json"
     },
     {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\build\\MIDI.js",
+      "PackagePath": "staticwebassets\\json\\build\\MIDI.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\build\\MIDI.min.js",
+      "PackagePath": "staticwebassets\\json\\build\\MIDI.min.js"
+    },
+    {
       "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\carlos_gardel\\a_la_luz_del_candil.json",
       "PackagePath": "staticwebassets\\json\\carlos_gardel\\a_la_luz_del_candil.json"
     },
@@ -13973,6 +15037,786 @@
       "PackagePath": "staticwebassets\\json\\divididos\\zombie.json"
     },
     {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\Basic.html",
+      "PackagePath": "staticwebassets\\json\\examples\\Basic.html"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\MIDIPlayer.html",
+      "PackagePath": "staticwebassets\\json\\examples\\MIDIPlayer.html"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\WhitneyMusicBox.html",
+      "PackagePath": "staticwebassets\\json\\examples\\WhitneyMusicBox.html"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\css\\MIDIPlayer.css",
+      "PackagePath": "staticwebassets\\json\\examples\\css\\MIDIPlayer.css"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\images\\backward.png",
+      "PackagePath": "staticwebassets\\json\\examples\\images\\backward.png"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\images\\forward.png",
+      "PackagePath": "staticwebassets\\json\\examples\\images\\forward.png"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\images\\pause.png",
+      "PackagePath": "staticwebassets\\json\\examples\\images\\pause.png"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\images\\play.png",
+      "PackagePath": "staticwebassets\\json\\examples\\images\\play.png"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\images\\shiverMeTimbers.gif",
+      "PackagePath": "staticwebassets\\json\\examples\\images\\shiverMeTimbers.gif"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\images\\stop.png",
+      "PackagePath": "staticwebassets\\json\\examples\\images\\stop.png"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\images\\tuna.png",
+      "PackagePath": "staticwebassets\\json\\examples\\images\\tuna.png"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\inc\\colorspace.js",
+      "PackagePath": "staticwebassets\\json\\examples\\inc\\colorspace.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\inc\\event.js",
+      "PackagePath": "staticwebassets\\json\\examples\\inc\\event.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\inc\\timer.js",
+      "PackagePath": "staticwebassets\\json\\examples\\inc\\timer.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3.js",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\A0.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\A0.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\A1.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\A1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\A2.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\A2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\A3.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\A3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\A4.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\A4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\A5.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\A5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\A6.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\A6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\A7.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\A7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab1.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab2.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab3.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab4.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab5.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab6.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab7.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Ab7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\B0.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\B0.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\B1.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\B1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\B2.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\B2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\B3.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\B3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\B4.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\B4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\B5.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\B5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\B6.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\B6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\B7.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\B7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb0.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb0.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb1.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb2.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb3.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb4.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb5.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb6.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb7.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Bb7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\C1.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\C1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\C2.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\C2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\C3.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\C3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\C4.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\C4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\C5.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\C5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\C6.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\C6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\C7.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\C7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\C8.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\C8.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\D1.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\D1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\D2.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\D2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\D3.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\D3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\D4.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\D4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\D5.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\D5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\D6.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\D6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\D7.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\D7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db1.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db2.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db3.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db4.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db5.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db6.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db7.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db8.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Db8.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\E1.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\E1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\E2.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\E2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\E3.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\E3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\E4.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\E4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\E5.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\E5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\E6.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\E6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\E7.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\E7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb1.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb2.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb3.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb4.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb5.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb6.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb7.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Eb7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\F1.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\F1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\F2.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\F2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\F3.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\F3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\F4.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\F4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\F5.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\F5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\F6.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\F6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\F7.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\F7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\G1.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\G1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\G2.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\G2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\G3.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\G3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\G4.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\G4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\G5.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\G5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\G6.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\G6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\G7.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\G7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb1.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb2.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb3.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb4.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb5.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb6.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb7.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-mp3\\Gb7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\acoustic_grand_piano-ogg.js",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\acoustic_grand_piano-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3.js",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\A0.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\A0.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\A1.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\A1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\A2.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\A2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\A3.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\A3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\A4.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\A4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\A5.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\A5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\A6.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\A6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\A7.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\A7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Ab1.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Ab1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Ab2.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Ab2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Ab3.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Ab3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Ab4.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Ab4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Ab5.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Ab5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Ab6.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Ab6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Ab7.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Ab7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\B0.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\B0.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\B1.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\B1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\B2.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\B2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\B3.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\B3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\B4.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\B4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\B5.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\B5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\B6.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\B6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\B7.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\B7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Bb0.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Bb0.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Bb1.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Bb1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Bb2.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Bb2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Bb3.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Bb3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Bb4.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Bb4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Bb5.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Bb5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Bb6.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Bb6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Bb7.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Bb7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\C1.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\C1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\C2.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\C2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\C3.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\C3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\C4.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\C4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\C5.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\C5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\C6.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\C6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\C7.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\C7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\C8.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\C8.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\D1.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\D1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\D2.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\D2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\D3.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\D3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\D4.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\D4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\D5.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\D5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\D6.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\D6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\D7.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\D7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Db1.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Db1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Db2.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Db2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Db3.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Db3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Db4.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Db4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Db5.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Db5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Db6.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Db6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Db7.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Db7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\E1.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\E1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\E2.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\E2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\E3.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\E3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\E4.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\E4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\E5.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\E5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\E6.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\E6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\E7.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\E7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Eb1.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Eb1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Eb2.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Eb2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Eb3.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Eb3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Eb4.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Eb4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Eb5.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Eb5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Eb6.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Eb6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Eb7.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Eb7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\F1.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\F1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\F2.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\F2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\F3.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\F3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\F4.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\F4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\F5.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\F5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\F6.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\F6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\F7.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\F7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\G1.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\G1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\G2.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\G2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\G3.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\G3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\G4.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\G4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\G5.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\G5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\G6.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\G6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\G7.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\G7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Gb1.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Gb1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Gb2.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Gb2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Gb3.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Gb3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Gb4.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Gb4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Gb5.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Gb5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Gb6.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Gb6.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-mp3\\Gb7.mp3",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-mp3\\Gb7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\examples\\soundfont\\synth_drum-ogg.js",
+      "PackagePath": "staticwebassets\\json\\examples\\soundfont\\synth_drum-ogg.js"
+    },
+    {
       "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\fabulosos\\1987.json",
       "PackagePath": "staticwebassets\\json\\fabulosos\\1987.json"
     },
@@ -15395,6 +17239,14 @@
     {
       "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\fito_paez\\zamba_del_cielo.json",
       "PackagePath": "staticwebassets\\json\\fito_paez\\zamba_del_cielo.json"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\generator\\nodejs\\packageWAVs.js",
+      "PackagePath": "staticwebassets\\json\\generator\\nodejs\\packageWAVs.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\generator\\ruby\\soundfont_builder.rb",
+      "PackagePath": "staticwebassets\\json\\generator\\ruby\\soundfont_builder.rb"
     },
     {
       "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\json\\gustavo_cerati\\a_merced.json",
@@ -23255,6 +25107,538 @@
     {
       "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\lib\\tone\\Tone.min.js",
       "PackagePath": "staticwebassets\\lib\\tone\\Tone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\midi.js\\MIDIPlayer.css",
+      "PackagePath": "staticwebassets\\midi.js\\MIDIPlayer.css"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\midi.js\\midi.js",
+      "PackagePath": "staticwebassets\\midi.js\\midi.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\midi.js\\midi.min.js",
+      "PackagePath": "staticwebassets\\midi.js\\midi.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\premidi.html",
+      "PackagePath": "staticwebassets\\premidi.html"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\accordion-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\accordion-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\acoustic_bass-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\acoustic_bass-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\acoustic_grand_piano-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\acoustic_grand_piano-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\acoustic_grand_piano-ogg_ANDA.js",
+      "PackagePath": "staticwebassets\\soundfont\\acoustic_grand_piano-ogg_ANDA.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\acoustic_guitar_nylon-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\acoustic_guitar_nylon-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\acoustic_guitar_steel-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\acoustic_guitar_steel-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\agogo-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\agogo-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\alto_sax-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\alto_sax-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\applause-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\applause-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\bagpipe-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\bagpipe-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\banjo-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\banjo-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\baritone_sax-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\baritone_sax-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\bassoon-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\bassoon-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\bird_tweet-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\bird_tweet-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\blown_bottle-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\blown_bottle-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\brass_section-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\brass_section-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\breath_noise-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\breath_noise-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\bright_acoustic_piano-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\bright_acoustic_piano-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\celesta-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\celesta-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\cello-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\cello-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\choir_aahs-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\choir_aahs-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\church_organ-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\church_organ-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\clarinet-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\clarinet-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\clavinet-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\clavinet-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\contrabass-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\contrabass-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\distortion_guitar-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\distortion_guitar-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\drawbar_organ-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\drawbar_organ-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\dulcimer-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\dulcimer-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\electric_bass_finger-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\electric_bass_finger-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\electric_bass_pick-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\electric_bass_pick-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\electric_grand_piano-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\electric_grand_piano-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\electric_guitar_clean-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\electric_guitar_clean-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\electric_guitar_jazz-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\electric_guitar_jazz-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\electric_guitar_muted-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\electric_guitar_muted-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\electric_piano_1-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\electric_piano_1-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\electric_piano_2-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\electric_piano_2-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\english_horn-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\english_horn-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\fiddle-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\fiddle-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\flute-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\flute-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\french_horn-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\french_horn-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\fretless_bass-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\fretless_bass-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\fx_1_rain-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\fx_1_rain-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\fx_2_soundtrack-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\fx_2_soundtrack-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\fx_3_crystal-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\fx_3_crystal-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\fx_4_atmosphere-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\fx_4_atmosphere-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\fx_5_brightness-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\fx_5_brightness-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\fx_6_goblins-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\fx_6_goblins-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\fx_7_echoes-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\fx_7_echoes-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\fx_8_scifi-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\fx_8_scifi-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\glockenspiel-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\glockenspiel-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\guitar_fret_noise-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\guitar_fret_noise-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\guitar_harmonics-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\guitar_harmonics-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\gunshot-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\gunshot-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\harmonica-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\harmonica-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\harpsichord-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\harpsichord-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\helicopter-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\helicopter-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\honkytonk_piano-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\honkytonk_piano-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\kalimba-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\kalimba-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\koto-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\koto-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\lead_1_square-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\lead_1_square-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\lead_2_sawtooth-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\lead_2_sawtooth-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\lead_3_calliope-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\lead_3_calliope-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\lead_4_chiff-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\lead_4_chiff-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\lead_5_charang-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\lead_5_charang-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\lead_6_voice-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\lead_6_voice-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\lead_7_fifths-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\lead_7_fifths-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\lead_8_bass__lead-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\lead_8_bass__lead-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\marimba-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\marimba-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\melodic_tom-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\melodic_tom-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\music_box-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\music_box-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\muted_trumpet-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\muted_trumpet-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\oboe-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\oboe-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\ocarina-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\ocarina-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\orchestra_hit-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\orchestra_hit-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\orchestral_harp-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\orchestral_harp-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\overdriven_guitar-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\overdriven_guitar-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\pad_1_new_age-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\pad_1_new_age-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\pad_2_warm-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\pad_2_warm-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\pad_3_polysynth-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\pad_3_polysynth-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\pad_4_choir-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\pad_4_choir-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\pad_5_bowed-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\pad_5_bowed-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\pad_6_metallic-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\pad_6_metallic-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\pad_7_halo-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\pad_7_halo-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\pad_8_sweep-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\pad_8_sweep-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\pan_flute-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\pan_flute-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\percussive_organ-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\percussive_organ-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\piccolo-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\piccolo-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\pizzicato_strings-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\pizzicato_strings-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\recorder-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\recorder-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\reed_organ-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\reed_organ-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\reverse_cymbal-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\reverse_cymbal-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\rock_organ-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\rock_organ-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\seashore-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\seashore-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\shakuhachi-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\shakuhachi-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\shamisen-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\shamisen-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\shanai-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\shanai-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\sitar-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\sitar-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\slap_bass_1-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\slap_bass_1-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\slap_bass_2-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\slap_bass_2-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\soprano_sax-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\soprano_sax-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\steel_drums-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\steel_drums-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\string_ensemble_1-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\string_ensemble_1-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\string_ensemble_2-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\string_ensemble_2-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\synth_bass_1-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\synth_bass_1-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\synth_bass_2-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\synth_bass_2-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\synth_brass_1-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\synth_brass_1-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\synth_brass_2-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\synth_brass_2-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\synth_choir-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\synth_choir-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\synth_drum-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\synth_drum-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\synth_strings_1-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\synth_strings_1-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\synth_strings_2-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\synth_strings_2-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\taiko_drum-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\taiko_drum-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\tango_accordion-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\tango_accordion-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\telephone_ring-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\telephone_ring-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\tenor_sax-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\tenor_sax-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\timpani-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\timpani-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\tinkle_bell-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\tinkle_bell-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\tremolo_strings-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\tremolo_strings-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\trombone-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\trombone-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\trumpet-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\trumpet-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\tuba-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\tuba-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\tubular_bells-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\tubular_bells-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\vibraphone-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\vibraphone-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\viola-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\viola-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\violin-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\violin-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\voice_oohs-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\voice_oohs-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\whistle-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\whistle-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\woodblock-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\woodblock-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\xylophone-ogg.js",
+      "PackagePath": "staticwebassets\\soundfont\\xylophone-ogg.js"
     },
     {
       "Id": "obj\\Release\\net6.0-windows\\staticwebassets\\msbuild.build.cancioneroWeb.props",

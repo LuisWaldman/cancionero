@@ -1,5 +1,6 @@
 C:\Users\Luis\source\repos\cancionero\cancionero\cancioneroWeb\bin\Debug\net6.0-windows\appsettings.Development.json
 C:\Users\Luis\source\repos\cancionero\cancionero\cancioneroWeb\bin\Debug\net6.0-windows\appsettings.json
+C:\Users\Luis\source\repos\cancionero\cancionero\cancioneroWeb\bin\Debug\net6.0-windows\libman.json
 C:\Users\Luis\source\repos\cancionero\cancionero\cancioneroWeb\bin\Debug\net6.0-windows\cancioneroWeb.staticwebassets.runtime.json
 C:\Users\Luis\source\repos\cancionero\cancionero\cancioneroWeb\bin\Debug\net6.0-windows\cancioneroWeb.exe
 C:\Users\Luis\source\repos\cancionero\cancionero\cancioneroWeb\bin\Debug\net6.0-windows\cancioneroWeb.deps.json
@@ -29,4 +30,3 @@ C:\Users\Luis\source\repos\cancionero\cancionero\cancioneroWeb\obj\Debug\net6.0-
 C:\Users\Luis\source\repos\cancionero\cancionero\cancioneroWeb\obj\Debug\net6.0-windows\cancioneroWeb.pdb
 C:\Users\Luis\source\repos\cancionero\cancionero\cancioneroWeb\obj\Debug\net6.0-windows\cancioneroWeb.genruntimeconfig.cache
 C:\Users\Luis\source\repos\cancionero\cancionero\cancioneroWeb\obj\Debug\net6.0-windows\ref\cancioneroWeb.dll
-C:\Users\Luis\source\repos\cancionero\cancionero\cancioneroWeb\bin\Debug\net6.0-windows\libman.json

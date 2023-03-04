@@ -5,6 +5,10 @@
     {
       "library": "tone@14.8.49",
       "destination": "wwwroot/lib/tone/"
+    },
+    {
+      "library": "midi.js@0.3.0",
+      "destination": "wwwroot/midi.js/"
     }
   ]
 }

@@ -5,56 +5,295 @@
     <title></title>
     <link href="css/site.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.0/css/all.css">
+    <link href="css/all.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="~/cancioneroWeb.styles.css" asp-append-version="true" />
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-
+    <!-- polyfill -->
+    <script src="inc/shim/Base64.js" type="text/javascript"></script>
+    <script src="inc/shim/Base64binary.js" type="text/javascript"></script>
+    <script src="inc/shim/WebAudioAPI.js" type="text/javascript"></script>
+    <!-- midi.js package -->
+    <script src="js/midi/audioDetect.js" type="text/javascript"></script>
+    <script src="js/midi/gm.js" type="text/javascript"></script>
+    <script src="js/midi/loader.js" type="text/javascript"></script>
+    <script src="js/midi/plugin.audiotag.js" type="text/javascript"></script>
+    <script src="js/midi/plugin.webaudio.js" type="text/javascript"></script>
+    <script src="js/midi/plugin.webmidi.js" type="text/javascript"></script>
+    <!-- utils -->
+    <script src="js/util/dom_request_xhr.js" type="text/javascript"></script>
+    <script src="js/util/dom_request_script.js" type="text/javascript"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="js/bootstrap.bundle.css.js"></script>
 
 </head>
 <body>
 
     <div id="app">
 
+
         <div class="header">
-            <div class="divNombre">
+
+            <div>
+                <button v-on:click="Click_ActualizarCancion">
+                    <i class="fas fa-arrows-rotate"></i>
+                </button>
+            </div>
+            <div class="divNombre" v-if="!actualizando_cancion">
                 {{ EditandoCancion.Nombre }} - {{ EditandoCancion.Autor }}
             </div>
-            <div>
+            <input type="checkbox" v-model="editandoAcordes" />
 
-                <button v-on:click="Click_ActualizarCancion">
+
+            <div class="nav-item" v-if="actualizando_cancion">
+                <select v-model="id_cancionseleccionada" v-on:change="Cambio_seleccion()">
+                    <option v-for="(cancion, cancion_id) in CancionesDisponibles" :value="cancion_id">
+                        {{ cancion.Nombre }} - {{ cancion.Autor }}
+                    </option>
+                </select>
+            </div>
+
+            <div>
+                <input class="tempo" type="number" v-model="EditandoCancion.Tempo" />
+            </div>
+            <div>
+                <button v-on:click="Click_Play()">
                     <i class="fas fa-play"></i>
                 </button>
             </div>
-                <div>
 
-                    <button v-on:click="Click_ActualizarCancion">
-                        <i class="fas fa-arrows-rotate"></i>
+            <div>
+                <button v-if="tocando" v-on:click="Click_Pause()">
+                    <i class="fas fa-pause"></i>
+                </button>
+            </div>
+
+            <div>
+                <button v-on:click="Cambio_seleccion()">
+                    <i class="fas fa-arrows-rotate"></i>
+                </button>
+            </div>
+
+            <div class="tocando" v-if="tocando">
+
+                <div :class="{ beat: true, active: activeBeat === 0 }"></div>
+                <div :class="{ beat: true, active: activeBeat === 1 }"></div>
+                <div :class="{ beat: true, active: activeBeat === 2 }"></div>
+                <div :class="{ beat: true, active: activeBeat === 3 }"></div>
+            </div>
+            <div class="compasdisplay" v-if="tocando">{{ tocandocompas }} / {{ totalcompas }}</div>
+
+
+
+            <div>
+
+                <button v-on:click="Click_EditarBaterista">
+                    <i class="fa-solid fa-drum"></i>
+                </button>
+                <button v-on:click="Click_EditarPianista">
+                    <i class="fa-solid fa-music"></i>
+                </button>
+
+                <button v-on:click="Click_EditarBajista">
+                    _
+                </button>
+            </div>
+
+            <div>
+
+                <button v-on:click="viendoinstrumento = !viendoinstrumento">
+                    <i class="fa-solid fa-sliders"></i>
+                </button>
+
+
+                <button>
+                    <i class="fa-brands fa-spotify"></i>
+                </button>
+
+
+            </div>
+
+        </div>
+
+
+        <div id="bajista" v-if="bajista.viendo">
+            <div class="headerMusico">
+                <select v-model="pianista.mostrandoNota.NumeroNota" v-on:change="cambio_nota_pianista()">
+                    <option v-for="(nota, notaid) in notas" :value="notaid"> {{ nota }}</option>
+                </select>
+                <input type="checkbox" v-model="pianista.mostrandoNota.Mayor" v-on:change="cambio_nota_pianista()" />Mayor
+                <select v-model="pianista.mostrandoNota.NumeroModificador" v-on:change="cambio_nota_pianista()">
+                    <option value="0"> </option>
+                    <option value="5">5</option>
+                    <option value="7">7</option>
+                </select>
+            </div>
+            <div class="desarrolloMusico">
+                <div>
+                    <img src="images/bajistazurdo.png" id="imgBaterista" />
+                </div>
+
+
+                <div>
+                    <button v-if="!bajista.tocando" v-on:click="Click_PlayBajo()">
+                        <i class="fas fa-play"></i>
+                    </button>
+                    <button v-if="bajista.tocando" v-on:click="Click_PauseBajo()">
+                        <i class="fas fa-pause"></i>
                     </button>
                 </div>
-              
-                <div class="nav-item" v-if="actualizando_cancion">
-                    <select v-model="id_cancionseleccionada" v-on:change="Cambio_seleccion()">
-                        <option v-for="(cancion, cancion_id) in CancionesDisponibles" :value="cancion_id">
-                            {{ cancion.Nombre }} - {{ cancion.Autor }}
-                        </option>
+                <div>
+                    Aca el desarrollo del bajista
+                </div>
+            </div>
+        </div>
+
+        <div id="pianista" v-if="pianista.viendo">
+            <div class="headerMusico">
+                <select v-model="pianista.mostrandoNota.NumeroNota" v-on:change="cambio_nota_pianista()">
+                    <option v-for="(nota, notaid) in notas" :value="notaid"> {{ nota }}</option>
+                </select>
+                <input type="checkbox" v-model="pianista.mostrandoNota.Mayor" v-on:change="cambio_nota_pianista()" />Mayor
+                <select v-model="pianista.mostrandoNota.NumeroModificador" v-on:change="cambio_nota_pianista()">
+                    <option value="0"> </option>
+                    <option value="5">5</option>
+                    <option value="7">7</option>
+                </select>
+
+                <select v-model="pianista.modo" v-on:change="cambio_nota_pianista()">
+                    <option v-for="modo in pianista.modos" :value="modo.value">{{ modo.nombre}} </option>
+                </select>
+
+                <select v-model="pianista.tocandoinversion" v-on:change="cambio_nota_pianista()">
+                    <option v-for="modo in pianista.inversion" :value="modo.value">{{ modo.nombre}} </option>
+                </select>
+
+            </div>
+            <div class="desarrolloMusico">
+                <div>
+                    <div>
+                        <img src="images/pianista.png" id="imgBaterista" />
+                    </div>
+                   <select v-model="pianista.instrumentoid" v-on:change="change_instrumento()">
+                        <option v-for="(instrumento, id) in instrumentos" :value="id">{{ instrumento.nombre
+                    }}</option>
                     </select>
+
+                </div>
+                <div>
+                    <button v-if="!pianista.tocando" v-on:click="Click_PlayPiano()">
+                        <i class="fas fa-play"></i>
+                    </button>
+                    <button v-if="pianista.tocando" v-on:click="Click_PausePiano()">
+                        <i class="fas fa-pause"></i>
+                    </button>
+                </div>
+                <div>
+                    <div class="clsBajoPiano">
+                        <div class="teclaPiano">BAJO:</div>
+                        <div v-for="(cuarto, cuartoid) in pianista.bajo" class="tecladivCuarto">
+                            <div class="teclacuarto" v-for="(cu, cuid) in cuarto" :class="{ beatbateriaactivo: cuartoid == pianista.tocandobeat
+                                 && cuid == pianista.tocandocuarto}">
+                                {{ cu }}
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div v-for="(teclas, teclasid) in pianista.teclas" class="teclasPiano">
+                        <div class="teclaPiano" :class="{ teclaNegra:
+                             (teclas.numeroescala == 1)  ||
+                             (teclas.numeroescala == 4)  ||
+                             (teclas.numeroescala == 6)  ||
+                             (teclas.numeroescala == 9)  ||
+                             (teclas.numeroescala == 11)   }">
+                            {{ teclas.nombre }}
+                        </div>
+                        <div v-for="(cuarto, cuartoid) in pianista.cuartos" class="tecladivCuarto">
+                            <div class="teclacuarto" v-for="(cu, cuid) in cuarto" :class="{ beatbateriaactivo: cuartoid == pianista.tocandobeat
+                                 && cuid == pianista.tocandocuarto
+                                 }">
+                                {{ cu[teclasid] }}
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="baterista" class="musico" v-if="baterista.viendo">
+            <div class="desarrolloMusico">
+                <div>
+                    <img src="images/baterista.png" id="imgBaterista" />
                 </div>
 
 
+                <div>
+                    <button v-if="!baterista.tocando" v-on:click="Click_PlayBateria()">
+                        <i class="fas fa-play"></i>
+                    </button>
+                    <button v-if="baterista.tocando" v-on:click="Click_PauseBateria()">
+                        <i class="fas fa-pause"></i>
+                    </button>
+                </div>
 
+
+                <div>
+                    <div class="instrumento" v-for="instrumento in baterista.instrumentos">
+                        <div class="instrumentobaterista">{{ instrumento.numero }}</div>
+
+                        <div class="bateristabeat" :class="{ beatbateriaactivo: beatid == baterista.tocandobeat}" v-for="(b, beatid) in instrumento.beat" v-on:click="cambiarbeat_click(instrumento, beatid)">
+                            <div class="bateristabeattocado" v-if="b"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="tonejs" v-if="viendoinstrumento">
+            <div>
+                Instrumento: <select v-model="cargaInstrumentoId">
+                    <option v-for="(instrumento, id) in instrumentos" :value="id">{{ instrumento.nombre}}</option>
+                </select> <button v-on:click="Click_cargarInstrumento()">Cargar</button><span>{{ estado_cargainstrumento }}</span>
+            </div>
+            <div class="clsoctava" v-for="octava in octavas">
+                <div class="clsnota" v-for="(nota, notaid) in notas" v-on:click="Tocar(octava, notaid)">
+                    {{ nota }}{{ octava }}
+                </div>
+            </div>
         </div>
 
         <div id="containerCancion">
             <div v-for="parte in EditandoCancion.PartesCancion" class="clspartecancion">
                 <div v-for="p in parte">
 
-
                     <div class="clsNotas" v-if="p.Notas.length > 0">
-                        <div class="clsNota" v-for="nota in p.Notas">
+
+                        <div v-if="editandoAcordes" class="clsNotaEditando" 
+                             :class="{'beatbateriaactivo': tocando && (tocandocompas === nota.compas) }"
+                             v-for="nota in p.Notas">
+                            
+                            <div class="nombrenotaeditando">{{ nota.Nombre }}</div>
+                            <div class="notInstr">
+                                <img src="images/pianista.png" class="imgInstCancion" />
+                                <select v-model="nota.modo">
+                                    <option value=""></option>
+                                    <option v-for="modo in pianista.modos" :value="modo.value">{{ modo.nombre}} </option>
+                                </select>
+
+                                <select v-model="nota.tocandoinversion">
+                                    <option value=""></option>
+                                    <option v-for="modo in pianista.inversion" :value="modo.value">{{ modo.nombre}} </option>
+                                </select>
+                            </div>
+                            
+                        
+                        </div>
+
+                        <div v-if="!editandoAcordes" class="clsNota" :class="{'beatbateriaactivo': tocando && (tocandocompas === nota.compas) }"
+                             v-for="nota in p.Notas">
                             {{ nota.Nombre }}
                         </div>
+
 
                     </div>
 
@@ -68,10 +307,11 @@
 
     </div>
 
-
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="js/vue.global.js"></script>
+    <script src="js/instrumentos.js"></script>
+    <script src="js/pianista.js"></script>
     <script src="js/site.js"></script>
 
-    
+
 </body>
 </html>

@@ -1,6 +1,4 @@
-html {
-  font-size: 14px;
-}
+
 
 @media (min-width: 768px) {
   html {
@@ -11,16 +9,56 @@ html {
 html {
   position: relative;
   min-height: 100%;
+  background-color: blanchedalmond;
+  padding: 10px;
 }
+
+select {
+    background-color: blanchedalmond;
+}
+
+
+input {
+    background-color: blanchedalmond;
+}
+
 
 body {
   margin-bottom: 60px;
+  min-height: 100%;
 }
 
+.header {
+  margin: 10px;
+  
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 2px;
+  padding-left: 20px;
+}
+
+#app {
+  height: 100%;
+  background-color: blanchedalmond;
+}
 
 .clsNotas {
     display: flex;
 }
+
+.clsNotaEditando {
+    display: flex;
+}
+
+.nombrenotaeditando {
+    font-size: 60px;
+    padding: 4px;
+}
+
+.notInstr {
+    font-size: 15px;
+}
+
 
 .clsNota {
     width: 100px;
@@ -33,13 +71,166 @@ body {
 }
 .divNombre {
   width: 400px;
-
+  margin-left: 10px;
 }
 
 #containerCancion {
-    margin-left: 15px;
 }
 
 .header {
   display: flex;
+}
+
+.tempo {
+    width: 50px;
+}
+
+#tonejs {
+}
+
+.clsoctava {
+    display: flex;
+}
+
+.clsnota {
+    border: 1px solid;
+    margin: 1px;
+    padding: 3px;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.clsnota:hover
+{
+    background-color: burlywood;
+
+}
+
+
+    .tocando {
+        display: inline-flex;
+        margin-left: 5px;
+
+    }
+
+.beat {
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  border: 3px solid black;
+  background-color: gray;
+  margin-right: 5px;
+
+}
+
+.active {
+  background-color: rgb(53, 223, 47);
+}
+
+.musico {
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+
+.instrumentobaterista {
+    font-size: 20px;
+    width: 300px;
+    height: 40px;
+    margin: 5px;
+}
+
+.instrumento {
+    display: flex;
+}
+
+.bateristabeat {
+    border: 1px solid;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.bateristabeattocado {
+    border: 1px solid;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    background-color: black;
+}
+
+
+.beatbateriaactivo {
+    background-color: rgb(53, 223, 47);
+}
+
+
+.beatbateriaactivo .bateristabeattocado {
+    background-color: #248735 !important;
+}
+
+#imgBaterista {
+    height: 160px;
+    width: 160px;
+}
+
+.desarrolloMusico {
+    display: flex;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.headerMusico {
+    display: flex;
+}
+
+.teclasPiano {
+    display: flex;
+}
+
+.teclaPiano {
+    border: 1px solid;
+    width: 70px;
+    height: 14px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 8px;
+    text-align: center;
+}
+
+.teclacuarto {
+    border: 1px solid;
+    width: 20px;
+    height: 14px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 10px;
+    
+}
+
+.tecladivCuarto {
+   display: flex;
+   padding-left: 4px;
+
+}
+
+.teclaNegra {
+    background-color: black;
+    color: white;
+}
+
+.clsBajoPiano {
+    display: flex;
+    margin-bottom: 14px;
+}
+.imgInstCancion {
+    width: 25px;
+    height: 25px;
+}
+
+.compasdisplay {
 }
