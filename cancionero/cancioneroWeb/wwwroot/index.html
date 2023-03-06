@@ -42,10 +42,21 @@
 
     <template type="text/x-template" class="templatevue" id="micancion">
     </template>
+    <template type="text/x-template" class="templatevue" id="mipianista">
+    </template>
+    <template type="text/x-template" class="templatevue" id="mimusico">
+    </template>
 
     <div id="app">
-        <micabecera :cancion="EditandoCancion"></micabecera>
-        <micancion id="editorCanciones" :value="EditandoCancion"></micancion>
+        <micabecera :value="EditandoCancion" :canciones="CancionesDisponibles"
+                    @cargocancion="event_cargocancion">
+
+        </micabecera>
+
+        <mimusico></mimusico>
+        <micancion :value="EditandoCancion" @cancioneditada="event_cancioneditada"></micancion>
+
+
     </div>
 
 
@@ -66,54 +77,54 @@
 
     <script>
         function hacereditable() {
-        
-        const editor = document.getElementById('editor');
 
-        // Agregar sugerencias al escribir "@"
-        editor.addEventListener('input', (event) => {
-            const text = editor.innerText;
-            const index = text.lastIndexOf('@');
-            if (index !== -1) {
-                const suggestions = ['Sugerencia 1', 'Sugerencia 2', 'Sugerencia 3'];
-                const suggestionList = document.createElement('ul');
-                suggestions.forEach((suggestion) => {
-                    const item = document.createElement('li');
-                    item.innerText = suggestion;
-                    item.addEventListener('click', () => {
-                        const newText = text.substring(0, index) + suggestion + text.substring(index + 1);
-                        editor.innerText = newText;
-                        editor.focus();
-                        document.getSelection().collapse(editor.firstChild, newText.length);
-                        suggestionList.remove();
+            const editor = document.getElementById('editor');
+
+            // Agregar sugerencias al escribir "@"
+            editor.addEventListener('input', (event) => {
+                const text = editor.innerText;
+                const index = text.lastIndexOf('@');
+                if (index !== -1) {
+                    const suggestions = ['Sugerencia 1', 'Sugerencia 2', 'Sugerencia 3'];
+                    const suggestionList = document.createElement('ul');
+                    suggestions.forEach((suggestion) => {
+                        const item = document.createElement('li');
+                        item.innerText = suggestion;
+                        item.addEventListener('click', () => {
+                            const newText = text.substring(0, index) + suggestion + text.substring(index + 1);
+                            editor.innerText = newText;
+                            editor.focus();
+                            document.getSelection().collapse(editor.firstChild, newText.length);
+                            suggestionList.remove();
+                        });
+                        suggestionList.appendChild(item);
                     });
-                    suggestionList.appendChild(item);
-                });
-                suggestionList.style.position = 'absolute';
-                suggestionList.style.top = event.target.offsetTop + event.target.offsetHeight + 'px';
-                suggestionList.style.left = event.target.offsetLeft + 'px';
-                editor.parentElement.appendChild(suggestionList);
-            }
-        });
-
-        // Agregar modificación al hacer clic en una palabra
-        editor.addEventListener('click', (event) => {
-            if (event.target.tagName === 'SPAN') {
-                event.target.classList.toggle('resaltado');
-            }
-        });
-
-        // Aplicar formato a las palabras resaltadas
-        editor.addEventListener('input', (event) => {
-            const text = editor.innerText;
-            const words = text.trim().split(/\s+/);
-            words.forEach((word) => {
-                const regex = new RegExp(word, 'g');
-                const span = document.createElement('span');
-                span.innerText = word;
-                span.classList.add('resaltado');
-                editor.innerHTML = editor.innerHTML.replace(regex, span.outerHTML);
+                    suggestionList.style.position = 'absolute';
+                    suggestionList.style.top = event.target.offsetTop + event.target.offsetHeight + 'px';
+                    suggestionList.style.left = event.target.offsetLeft + 'px';
+                    editor.parentElement.appendChild(suggestionList);
+                }
             });
-        });
+
+            // Agregar modificación al hacer clic en una palabra
+            editor.addEventListener('click', (event) => {
+                if (event.target.tagName === 'SPAN') {
+                    event.target.classList.toggle('resaltado');
+                }
+            });
+
+            // Aplicar formato a las palabras resaltadas
+            editor.addEventListener('input', (event) => {
+                const text = editor.innerText;
+                const words = text.trim().split(/\s+/);
+                words.forEach((word) => {
+                    const regex = new RegExp(word, 'g');
+                    const span = document.createElement('span');
+                    span.innerText = word;
+                    span.classList.add('resaltado');
+                    editor.innerHTML = editor.innerHTML.replace(regex, span.outerHTML);
+                });
+            });
         };
     </script>
 

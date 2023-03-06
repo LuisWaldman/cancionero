@@ -2,55 +2,139 @@
 import micabecera from './controlador/micabecera.js'
 import mirenglon from './controlador/mirenglon.js'
 import micancion from './controlador/micancion.js'
+import mimusico from './controlador/mimusico.js'
+import mipianista from './controlador/mipianista.js'
+
 import helperMusica from './util/helperMusica.js'
 
 // Crea Datos
 let Datos = {
     dataRecibida: '',
-    EditandoCancion:
-    {
-        Nombre: "Cancion Nueva",
-        Autor: "Usuario",
-        Tempo: 100,
-        Escala: "C",
-        Renglones: [
-            { 
-
-                AcordesTexto: "a b !c d! e",
-                AcordePorCuarto: ["a", "", "", "", "b", "", "", "", "c", "", "d", "", "e", "", "", ""],
-                AcordesMusica: [],
-                Instrucciones: [],
-                Letra: "Uno vive lleno de esperanzas "
-            },
-            {
-                AcordesTexto: "Cm ,F G7, C C7",
-                AcordesMusica: [],
-                Instrucciones: [],
-                Letra: "Uno vive lleno de esperanzas "
-            }],
-
-        renglones:
-            [
-                {
-                    acordesentexto: "",
-                    acordes: [],
-                }
-
+    CancionesDisponibles:
+        [{
+            tempo: 120,
+            nombre: "el nombre",
+            renglones: [
+                "C F G C",
+                "(C !F G! C *4",
+                "un texto de cancion",
+                "con alguna rima si queres",
+                "sarasa",
+                "pedrito ",
+                "(c f *3",
+                "mas palabras que sonn",
+                "en realidad txto cualquiera"
             ]
-    }
+        }, 
+            {
+                tempo: 110,
+                nombre: "otra cancion",
+                renglones: [
+                    "C F G C",
+                    "un texto de cancion",
+                    "con alguna rima si queres",
+                    "sarasa",
+                    "pedrito ",
+                    "(c f *3",
+                    "mas palabras que sonn",
+                    "en realidad txto cualquiera"
+                ]
+            }, 
+            {
+                tempo: 111,
+                nombre: "solo c",
+                renglones: [
+                    "C",
+                ]
+            }
+
+        ],
+    EditandoCancion: {}
 };
 
 
 let ControladorCancionero = {
-    cargar_cancion: function (cancion) {
+    calculartiempos: function (cancion)
+    {
+        /* primero incializo nro_cuarto */
+        cancion.renglones.forEach(renglon => {
+            renglon.acordes.forEach(compas => {
+                compas.forEach(cuarto => {
+                    cuarto.nro_cuarto = [];
+                });
+            });
+        });
+
+        cancion.compaces = 0;
+        var termino = false;
+        var recorriendorenglon = 0;
+
+        var renglon_initrepeat = 0;
+        var var_deberepetir = 0;
+        var recorriendorenglon = 0;
+        while (!termino)
+        {
+            if (recorriendorenglon >= cancion.renglones.length) {
+                termino = true;
+            }
+            else
+            {
+                var renglon = cancion.renglones[recorriendorenglon];
+                if (renglon.tipo == 'musica')
+                {
+                    renglon.acordes.forEach(compas =>
+                    {
+                        if (compas[0].tipo == 'init')
+                        {
+                            renglon_initrepeat = recorriendorenglon;
+                        }
+                        else if (compas[0].tipo == 'repeat')
+                        {
+                            if (!compas[0].repeticionescuenta)
+                                compas[0].repeticionescuenta = compas[0].repetir;
+                            compas[0].repeticionescuenta--;
+
+                            if (compas[0].repeticionescuenta > 0)
+                            {
+                                recorriendorenglon = renglon_initrepeat - 1;
+                            }
+                        }
+                        else
+                        {
+
+                            compas.forEach(cuarto =>
+                            {
+                                cuarto.nro_cuarto.push(cancion.compaces);
+                                cancion.compaces++;
+                            });
+                        }
+
+                    });
+                }
+                recorriendorenglon++;
+
+            }
+
+        }
+        return cancion;
+    },
+    cargarcancion: function (cancion) {
+        
         var ret = {
-            tempo: 120,
+            nombre: cancion.nombre,
+            tempo: cancion.tempo,
+            sonandocuarto: 0,
+            sonando: false,
             renglones: [],
         }
         
-        cancion.renglones.forEach(texto => {
+        cancion.renglones.forEach(texto =>
+        {
             ret.renglones.push(helperMusica.textotoarenglon(texto));
         });
+        this.calculartiempos(ret);
+
+        //let v = helperMusica.cargarcancion(cancion);
 
         return ret;
 
@@ -59,11 +143,10 @@ let ControladorCancionero = {
 
 var cancion = {
     tempo: 120,
+    nombre: "el nombre",
     renglones: [
         "C F G C",
-        "sarasa",
-        "pedrito ",
-        "(C !F G! C x4",
+        "(C !F G! C *4",
         "un texto de cancion",
         "con alguna rima si queres",
         "sarasa",
@@ -73,8 +156,14 @@ var cancion = {
         "en realidad txto cualquiera"
     ]
 };
-
-Datos.EditandoCancion = ControladorCancionero.cargar_cancion(cancion);
+/*
+cancion = {
+    tempo: 111,
+    nombre: "solo c",
+    renglones: [
+            "C",
+        ]
+};*/
 
 async function cargarAplicacion() {
     const templates = document.querySelectorAll('.templatevue');
@@ -96,17 +185,36 @@ async function cargarAplicacion() {
 
     console.log('Todos los templates han sido cargados');
 
-    let app = createApp({
-        data() {
-            return Datos;
-        }
+    let app = createApp(
+        {
+            created: function () {
+                console.log("app_creada");
+                Datos.EditandoCancion = ControladorCancionero.cargarcancion(cancion);
+            },
+            methods: {
+                event_cancioneditada: function ()
+                {
+                    Datos.EditandoCancion = ControladorCancionero.calculartiempos(Datos.EditandoCancion);
+                    this.$forceUpdate();
+                },
+                event_cargocancion: function (cancion)
+                {
+                    Datos.EditandoCancion = ControladorCancionero.cargarcancion(cancion);
+                    this.$forceUpdate();
+                }
+            },
+            data() {
+                return Datos;
+            }
     });
 
 
     app.component('micabecera', micabecera);
     app.component('mirenglon', mirenglon);
     app.component('micancion', micancion);
-
+    app.component('mipianista', mipianista);
+    app.component('mimusico', mimusico);
+    
     app.mount('#app');
 
 

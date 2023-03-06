@@ -361,10 +361,10 @@ ControladorBandas = {
                 ;
             });
     },
-    ActualizarTempo: function (appVue) {
+    ActualizarTempo: function (appVue)
+    {
 
         Datos.activeBeat = (Datos.activeBeat + 1) % 4;
-
         if (Datos.activeBeat == 0)
         {
 

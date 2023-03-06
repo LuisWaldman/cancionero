@@ -55,8 +55,7 @@
                 let repeticion = textoentrada[1];
                 return {
                     nombre: "x" + repeticion,
-                    repeticion: parseInt(repeticion),
-                    repitiendo: 0,
+                    repetir: parseInt(repeticion),
                     tipo: "repeat",
                     decodificadaOk: true
                 };
@@ -230,13 +229,26 @@
                 {
                     acordes = [];
                     renglon.letra = texto;
+
+                    renglon.tipo = "texto";
                 }
-                renglon.tipo = "texto";
             }
             renglon.acordes = acordes;
             return renglon;
     },
-    renglonstring_toacordes: function () {
+
+    cargarcancion: function (cancion) {
+        var ret = {
+            tempo: 120,
+            renglones: [],
+        }
+
+        cancion.renglones.forEach(texto => {
+            ret.renglones.push(helperMusica.textotoarenglon(texto));
+        });
+
+        return ret;
 
     }
+
 }

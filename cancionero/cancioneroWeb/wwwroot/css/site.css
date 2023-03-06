@@ -288,5 +288,9 @@ body {
 
 #editor {
     border: 1px solid;
-
+    height: 10000px;
+}
+.sonandocuarto {
+    border: 1px solid;
+    background-color: #eff568
 }

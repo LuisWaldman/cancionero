@@ -7,78 +7,41 @@
         </button>
     </div>
     <div class="divNombre" v-if="!actualizando_cancion">
-        {{ cancion.Nombre }} - {{ cancion.Autor }}
+        {{ value.nombre }}
     </div>
-    <input type="checkbox" v-model="editandoAcordes" />
-
-
     <div class="nav-item" v-if="actualizando_cancion">
-        <select v-model="id_cancionseleccionada" v-on:change="Cambio_seleccion()">
-            <option v-for="(canciondi, cancion_id) in CancionesDisponibles" :value="cancion_id">
-                {{ canciondi.Nombre }} - {{ canciondi.Autor }}
+        <select class="divNombre" v-model="id_cancionseleccionada" v-on:change="Cambio_seleccion()" v-on:focusout="Cambio_seleccion()">
+            <option v-for="(canciondi, cancion_id) in canciones" :value="cancion_id">
+                {{ canciondi.nombre }}
             </option>
         </select>
     </div>
 
     <div>
-        <input class="tempo" type="number" v-model="cancion.tempo" />
+        <input class="tempo" type="number" v-model="value.tempo" />
     </div>
+
     <div>
-        <button v-on:click="Click_Play()">
-            <i class="fas fa-play"></i>
+        <button v-on:click="Click_Stop()">
+            <i class="fas fa-stop"></i>
         </button>
     </div>
 
     <div>
-        <button v-if="tocando" v-on:click="Click_Pause()">
+        <button v-if="!value.tocando" v-on:click="Click_Play()">
+            <i class="fas fa-play"></i>
+        </button>
+    </div>
+    <div>
+        <button v-if="value.tocando" v-on:click="Click_Pause()">
             <i class="fas fa-pause"></i>
         </button>
     </div>
 
-    <div>
 
-        <button v-on:click="Cambio_seleccion()">
-            <i class="fas fa-arrows-rotate"></i>
-        </button>
-    </div>
-
-    <div class="tocando" v-if="tocando">
-
-        <div :class="{ beat: true, active: activeBeat === 0 }"></div>
-        <div :class="{ beat: true, active: activeBeat === 1 }"></div>
-        <div :class="{ beat: true, active: activeBeat === 2 }"></div>
-        <div :class="{ beat: true, active: activeBeat === 3 }"></div>
-    </div>
-    <div class="compasdisplay" v-if="tocando">{{ tocandocompas }} / {{ totalcompas }}</div>
+    <input type="range" v-model="value.sonandocuarto" min="0" :max="value.compaces" />
+    <input v-model="value.sonandocuarto" type="number" /> <span>/  {{ value.compaces }}</span>
 
 
-
-    <div>
-
-        <button v-on:click="Click_EditarBaterista">
-            <i class="fa-solid fa-drum"></i>
-        </button>
-        <button v-on:click="Click_EditarPianista">
-            <i class="fa-solid fa-music"></i>
-        </button>
-
-        <button v-on:click="Click_EditarBajista">
-            _
-        </button>
-    </div>
-
-    <div>
-
-        <button v-on:click="viendoinstrumento = !viendoinstrumento">
-            <i class="fa-solid fa-sliders"></i>
-        </button>
-
-
-        <button>
-            <i class="fa-spotify"></i>
-        </button>
-
-
-    </div>
 
 </div>

@@ -977,6 +977,14 @@
       "PackagePath": "staticwebassets\\js\\controlador\\micancion.js"
     },
     {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\controlador\\mimusico.js",
+      "PackagePath": "staticwebassets\\js\\controlador\\mimusico.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\controlador\\mipianista.js",
+      "PackagePath": "staticwebassets\\js\\controlador\\mipianista.js"
+    },
+    {
       "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\controlador\\mirenglon.js",
       "PackagePath": "staticwebassets\\js\\controlador\\mirenglon.js"
     },
@@ -15551,6 +15559,14 @@
     {
       "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\template\\micancion.html",
       "PackagePath": "staticwebassets\\template\\micancion.html"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\template\\mimusico.html",
+      "PackagePath": "staticwebassets\\template\\mimusico.html"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\template\\mipianista.html",
+      "PackagePath": "staticwebassets\\template\\mipianista.html"
     },
     {
       "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\template\\mirenglon.html",

@@ -5,12 +5,24 @@ import helperMusica from '../util/helperMusica.js'
 
 export default {
 
+    created: function () {
+        console.log("mi cancion creado");
+    },
     methods:
     {
         apreto_enter(event) {
             console.log(this.value.acorde);
             
         },
+        incluye: function (cuarto, sonandocuarto) 
+        {
+            sonandocuarto = parseInt(sonandocuarto);
+            if (cuarto)
+                if (cuarto.nro_cuarto)
+                    return cuarto.nro_cuarto.includes(sonandocuarto);
+            return false;
+        },
+
         click_acorde(renglonid)
         {
             var renglon = this.value.renglones[renglonid]
@@ -30,6 +42,7 @@ export default {
             var renglon = this.value.renglones[renglonid];
             var texto = renglon.acordesentexto;
             this.value.renglones[renglonid] = helperMusica.textotoarenglon(texto);
+            this.$emit('cancioneditada')
         },
         focusout_acorde(renglonid)
         {

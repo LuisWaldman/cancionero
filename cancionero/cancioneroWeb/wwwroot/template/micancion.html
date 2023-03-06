@@ -24,16 +24,16 @@
                      :class="{
                         'acorde_init': acorde[0].tipo == 'init',
                         'acorde_repeat': acorde[0].tipo == 'repeat' }"
-                     v-for="acorde in renglon.acordes">
+                     v-for="acorde in renglon.acordes"
+                     >
 
 
                     <div class="cuarto" v-for="cuarto in acorde"
                          :class="{
-                         'acordeconerror' : !cuarto.decodificadaOk
+                         'acordeconerror' : !cuarto.decodificadaOk,
+                         'sonandocuarto' : incluye(cuarto, value.sonandocuarto)
                          }">
-                        {{
- cuarto.nombre
-                        }}
+                        {{ cuarto.nombre }}
                     </div>
 
                 </div>
