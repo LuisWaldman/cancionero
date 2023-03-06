@@ -37,10 +37,6 @@
       "PackagePath": "staticwebassets\\build\\MIDI.min.js"
     },
     {
-      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\componentes\\nota.vue",
-      "PackagePath": "staticwebassets\\componentes\\nota.vue"
-    },
-    {
       "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\css\\MIDIPlayer.css",
       "PackagePath": "staticwebassets\\css\\MIDIPlayer.css"
     },
@@ -973,8 +969,16 @@
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.css.js"
     },
     {
-      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\controlador\\ControladorMusica.js",
-      "PackagePath": "staticwebassets\\js\\controlador\\ControladorMusica.js"
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\controlador\\micabecera.js",
+      "PackagePath": "staticwebassets\\js\\controlador\\micabecera.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\controlador\\micancion.js",
+      "PackagePath": "staticwebassets\\js\\controlador\\micancion.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\controlador\\mirenglon.js",
+      "PackagePath": "staticwebassets\\js\\controlador\\mirenglon.js"
     },
     {
       "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\inc\\jasmid\\LICENSE",
@@ -1069,8 +1073,8 @@
       "PackagePath": "staticwebassets\\js\\midi\\synesthesia.js"
     },
     {
-      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\nota.js",
-      "PackagePath": "staticwebassets\\js\\nota.js"
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\nota.vue",
+      "PackagePath": "staticwebassets\\js\\nota.vue"
     },
     {
       "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\pianista.js",
@@ -1087,6 +1091,10 @@
     {
       "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\util\\dom_request_xhr.js",
       "PackagePath": "staticwebassets\\js\\util\\dom_request_xhr.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\util\\helperMusica.js",
+      "PackagePath": "staticwebassets\\js\\util\\helperMusica.js"
     },
     {
       "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\vue.global.js",
@@ -15531,6 +15539,26 @@
     {
       "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\soundfont\\xylophone-ogg.js",
       "PackagePath": "staticwebassets\\soundfont\\xylophone-ogg.js"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\template\\botoncabecera.html",
+      "PackagePath": "staticwebassets\\template\\botoncabecera.html"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\template\\micabecera.html",
+      "PackagePath": "staticwebassets\\template\\micabecera.html"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\template\\micancion.html",
+      "PackagePath": "staticwebassets\\template\\micancion.html"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\template\\mirenglon.html",
+      "PackagePath": "staticwebassets\\template\\mirenglon.html"
+    },
+    {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\template\\templateMusica.html",
+      "PackagePath": "staticwebassets\\template\\templateMusica.html"
     },
     {
       "Id": "obj\\Debug\\net6.0-windows\\staticwebassets\\msbuild.build.cancioneroWeb.props",

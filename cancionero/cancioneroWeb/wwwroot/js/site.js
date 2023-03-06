@@ -278,7 +278,6 @@ ControladorPianista = {
         app.$forceUpdate();
     },
 };
-
 ControladorBandas = {
     GetAcordeNumero(numero) {
         var nuevaspartes = Datos.EditandoCancion.PartesCancion;
@@ -307,7 +306,7 @@ ControladorBandas = {
         }
     },
     CargarTempoTema: function () {
-        fetch("https://localhost:7073/indice.json")
+        fetch("/indice.json")
             .then(response => response.json())
             .then(data => {
                 {
@@ -329,7 +328,7 @@ ControladorBandas = {
 
         bNombre = ReemplazaEspaciosPor_(Nombre);
         bAutor = ReemplazaEspaciosPor_(Autor);
-        fetch("https://localhost:7073/json/" + bAutor + "/" + bNombre + ".json")
+        fetch("/json/" + bAutor + "/" + bNombre + ".json")
             .then(response => response.json())
             .then(data => {
                 {
