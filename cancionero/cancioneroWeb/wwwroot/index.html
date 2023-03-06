@@ -23,7 +23,7 @@
     <script src="js/util/dom_request_script.js" type="text/javascript"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <script src="js/bootstrap.bundle.css.js"></script>
-
+    <script src="js/cancionesdefault.js"></script>
 </head>
 <body>
     <template type="text/x-template" class="templatevue" id="templateMusica">
@@ -52,21 +52,14 @@
                     @cargocancion="event_cargocancion">
 
         </micabecera>
-
         <mimusico></mimusico>
         <micancion :value="EditandoCancion" @cancioneditada="event_cancioneditada"></micancion>
 
+        <button v-on:click="guardarcancion">IMPRIMIR JSON CANCION</button>
 
     </div>
 
 
-    <style>
-        #editor {
-            height: 300px;
-            border: 1px solid gray;
-            padding: 5px;
-        }
-    </style>
 
 
 

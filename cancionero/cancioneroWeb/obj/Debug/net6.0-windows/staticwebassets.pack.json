@@ -969,6 +969,10 @@
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.css.js"
     },
     {
+      "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\cancionesdefault.js",
+      "PackagePath": "staticwebassets\\js\\cancionesdefault.js"
+    },
+    {
       "Id": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\controlador\\micabecera.js",
       "PackagePath": "staticwebassets\\js\\controlador\\micabecera.js"
     },

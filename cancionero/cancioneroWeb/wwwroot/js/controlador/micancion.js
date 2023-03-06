@@ -10,10 +10,6 @@ export default {
     },
     methods:
     {
-        apreto_enter(event) {
-            console.log(this.value.acorde);
-            
-        },
         incluye: function (cuarto, sonandocuarto) 
         {
             sonandocuarto = parseInt(sonandocuarto);
@@ -50,29 +46,55 @@ export default {
             this.textotoarenglon(renglonid);
             renglon.editando = false;
 
+
+
         },
-
-        enteren_acorde(renglonid) {
-
-            var renglon = this.value.renglones[renglonid];
-            this.textotoarenglon(renglonid);
-
+        insertar_renglon(renglonid, texto) {
             // Insertar el nuevo renglón después del renglón especificado
-            this.value.renglones.splice(renglonid + 1, 0, {
-                acordesentexto: "",
-                acordes: [],
-                editando: true
-            });
 
-            this.$forceUpdate();
+            var renglontoadd = helperMusica.textotoarenglon(texto)
+            this.value.renglones.splice(renglonid + 1, 0, renglontoadd);
 
-            // Enfocar el nuevo campo de texto de acordes
+        },
+        enteren_acorde(renglonid)
+        {
+
+            this.textotoarenglon(renglonid);
+            this.insertar_renglon(renglonid, "");
             $("#txtacorde_" + (renglonid + 1)).focus();
 
+            var renglon = this.value.renglones[renglonid];
             renglon.editando = false;
         },
-        
 
+        async pegarTexto(renglonid, clipboard)
+        {
+            let texto = await clipboard.getData('text');
+            var nuevosrenglonestexto = texto.split("\r\n");
+            let renglonesinsertados = 0;
+
+            nuevosrenglonestexto.reverse().forEach(renglontexto =>
+            {
+                renglonesinsertados++;
+                this.insertar_renglon(renglonid - 1, renglontexto);
+            });
+
+
+            this.value.renglones[renglonid].editando = false;
+            this.value.renglones[renglonid + renglonesinsertados].editando = true;
+            this.$forceUpdate();
+            $("#txtacorde_" + (renglonid + renglonesinsertados)).focus();
+            
+        },
+        onPaste(evento) {
+            evento.returnValue = false;
+
+            let renglonid = parseInt(evento.srcElement.id.replace("txtacorde_", ""));
+            this.pegarTexto(renglonid, evento.clipboardData);
+
+            
+
+        },
 
         check() { this.checked = !this.checked; }
     },

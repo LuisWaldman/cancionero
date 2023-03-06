@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wqOqcRgpgULeCF53rh66EavEkaNgCURRisTWfqAcTM4=",
+  "Hash": "caw0LFmqRghQYADGMkTV5cc8lgD6WhhRjAkK1OpJmLI=",
   "Source": "cancioneroWeb",
   "BasePath": "_content/cancioneroWeb",
   "Mode": "Default",
@@ -4061,6 +4061,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.bundle.css.js"
+    },
+    {
+      "Identity": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\cancionesdefault.js",
+      "SourceId": "cancioneroWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\",
+      "BasePath": "_content/cancioneroWeb",
+      "RelativePath": "js/cancionesdefault.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\cancionesdefault.js"
     },
     {
       "Identity": "C:\\Users\\Luis\\source\\repos\\cancionero\\cancionero\\cancioneroWeb\\wwwroot\\js\\controlador\\micabecera.js",

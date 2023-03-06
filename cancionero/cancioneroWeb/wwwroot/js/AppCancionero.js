@@ -10,45 +10,7 @@ import helperMusica from './util/helperMusica.js'
 // Crea Datos
 let Datos = {
     dataRecibida: '',
-    CancionesDisponibles:
-        [{
-            tempo: 120,
-            nombre: "el nombre",
-            renglones: [
-                "C F G C",
-                "(C !F G! C *4",
-                "un texto de cancion",
-                "con alguna rima si queres",
-                "sarasa",
-                "pedrito ",
-                "(c f *3",
-                "mas palabras que sonn",
-                "en realidad txto cualquiera"
-            ]
-        }, 
-            {
-                tempo: 110,
-                nombre: "otra cancion",
-                renglones: [
-                    "C F G C",
-                    "un texto de cancion",
-                    "con alguna rima si queres",
-                    "sarasa",
-                    "pedrito ",
-                    "(c f *3",
-                    "mas palabras que sonn",
-                    "en realidad txto cualquiera"
-                ]
-            }, 
-            {
-                tempo: 111,
-                nombre: "solo c",
-                renglones: [
-                    "C",
-                ]
-            }
-
-        ],
+    CancionesDisponibles: cancionesDefault,
     EditandoCancion: {}
 };
 
@@ -70,7 +32,7 @@ let ControladorCancionero = {
         var recorriendorenglon = 0;
 
         var renglon_initrepeat = 0;
-        var var_deberepetir = 0;
+        var cont_renglon = 0;
         var recorriendorenglon = 0;
         while (!termino)
         {
@@ -80,36 +42,34 @@ let ControladorCancionero = {
             else
             {
                 var renglon = cancion.renglones[recorriendorenglon];
-                if (renglon.tipo == 'musica')
-                {
-                    renglon.acordes.forEach(compas =>
-                    {
-                        if (compas[0].tipo == 'init')
-                        {
+                if (renglon.tipo == 'musica') {
+                    renglon.acordes.forEach(compas => {
+                        if (compas[0].tipo == 'init') {
                             renglon_initrepeat = recorriendorenglon;
                         }
-                        else if (compas[0].tipo == 'repeat')
-                        {
+                        else if (compas[0].tipo == 'repeat') {
                             if (!compas[0].repeticionescuenta)
                                 compas[0].repeticionescuenta = compas[0].repetir;
                             compas[0].repeticionescuenta--;
 
-                            if (compas[0].repeticionescuenta > 0)
-                            {
+                            if (compas[0].repeticionescuenta > 0) {
                                 recorriendorenglon = renglon_initrepeat - 1;
                             }
                         }
-                        else
-                        {
+                        else {
 
-                            compas.forEach(cuarto =>
-                            {
+                            compas.forEach(cuarto => {
                                 cuarto.nro_cuarto.push(cancion.compaces);
                                 cancion.compaces++;
                             });
                         }
 
                     });
+                }
+                else
+                {
+                 
+
                 }
                 recorriendorenglon++;
 
@@ -118,11 +78,13 @@ let ControladorCancionero = {
         }
         return cancion;
     },
-    cargarcancion: function (cancion) {
+    cargarcancion: function (cancion)
+    {
         
         var ret = {
             nombre: cancion.nombre,
             tempo: cancion.tempo,
+            escala: cancion.escala,
             sonandocuarto: 0,
             sonando: false,
             renglones: [],
@@ -138,22 +100,34 @@ let ControladorCancionero = {
 
         return ret;
 
+    },
+    guardarcancion: function (cancion)
+    {
+        var ret = {
+            nombre: cancion.nombre,
+            tempo: cancion.tempo,
+            escala: cancion.escala,
+            renglones: [],
+        }
+
+        cancion.renglones.forEach(renglon =>
+        {
+            ret.renglones.push(renglon.acordesentexto);
+        });
+
+        return ret;
+
     }
 }
 
 var cancion = {
-    tempo: 120,
-    nombre: "el nombre",
+    tempo: 60,
+    nombre: "nueva",
     renglones: [
-        "C F G C",
-        "(C !F G! C *4",
-        "un texto de cancion",
-        "con alguna rima si queres",
-        "sarasa",
-        "pedrito ",
-        "(c f *3",
-        "mas palabras que sonn",
-        "en realidad txto cualquiera"
+        "DO RE x3",
+        "UNA CANCIOn",
+        "SIMPLE PARA PODER",
+        "TOCAR TRANQUI",
     ]
 };
 /*
@@ -188,7 +162,6 @@ async function cargarAplicacion() {
     let app = createApp(
         {
             created: function () {
-                console.log("app_creada");
                 Datos.EditandoCancion = ControladorCancionero.cargarcancion(cancion);
             },
             methods: {
@@ -197,6 +170,15 @@ async function cargarAplicacion() {
                     Datos.EditandoCancion = ControladorCancionero.calculartiempos(Datos.EditandoCancion);
                     this.$forceUpdate();
                 },
+
+                guardarcancion: function ()
+                {
+                    var editCan = ControladorCancionero.guardarcancion(Datos.EditandoCancion);
+                    console.log(JSON.stringify(editCan));
+                },
+
+
+
                 event_cargocancion: function (cancion)
                 {
                     Datos.EditandoCancion = ControladorCancionero.cargarcancion(cancion);

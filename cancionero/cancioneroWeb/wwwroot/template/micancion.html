@@ -7,7 +7,9 @@
 
             <input type="text" v-model="renglon.acordesentexto" class="txtAcorde mostrador" :id="'txtacorde_'+renglonid"
                    v-on:focusout="focusout_acorde(renglonid)"
-                   v-on:keydown.enter="enteren_acorde(renglonid)" />
+                   v-on:keydown.enter="enteren_acorde(renglonid)"
+                   @paste="onPaste"
+                   />
 
         </div>
 
@@ -44,7 +46,7 @@
                    'mostrandoacordes': renglon.editando,
                    'nomostrandoacordes': !renglon.editando
                }">
-            {{ renglon.letra }}
+            {{ renglon.nro_renglon }}: {{ renglon.letra }}
         </div>
     </div>
 </div>
