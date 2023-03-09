@@ -36,9 +36,14 @@
         AvanzarCuarto: function (app)
         {
             this.value.sonandocuarto++;
+            this.$emit('sonandocuarto', this.value.sonandocuarto);
             if (this.value.sonandocuarto > this.value.compaces)
                 this.Click_Stop();
 
+        },
+        cambio_cuarto_usuario: function () {
+
+            this.$emit('sonandocuarto', this.value.sonandocuarto);
         },
         Click_Pause()
         {

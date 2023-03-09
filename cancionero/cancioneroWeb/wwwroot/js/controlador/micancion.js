@@ -19,6 +19,29 @@ export default {
             return false;
         },
 
+        mostrando_texto: function ()
+        {
+
+            var cont1 = 0;
+            var cont2 = 0;
+            while (cont1 < value.renglones)
+            {
+                /*
+                var renglon = value.renglones[cont1];
+                if (renglon.tipo == "musica")
+                {
+
+                }
+                renglon.acordes.forEach(aco => {
+                    acor.forEach(cuar => )
+                });*/
+                cont1++;
+            }
+            this.value.renglones.forEach(re => {
+
+            });
+        },
+
         click_acorde(renglonid)
         {
             var renglon = this.value.renglones[renglonid]
@@ -49,6 +72,24 @@ export default {
 
 
         },
+
+        sonandocuarto: function (sonando) {
+            let mostrandorenglon = -1;
+            this.value.renglones.forEach(renglon => {
+                if (renglon.tipo != "musica")
+                {
+                    if (renglon.desdecuarto <= parseInt(sonando) && renglon.hastacuarto >= parseInt(sonando))
+                    {
+                        if (renglon.nro_renglon > 7) {
+
+                            var editorDiv = document.querySelector('#editor');
+                            editorDiv.scrollTop = 40 * parseInt(renglon.nro_renglon);
+                        }
+                    }
+                }
+            });
+        },
+
         insertar_renglon(renglonid, texto) {
             // Insertar el nuevo renglón después del renglón especificado
 
@@ -61,11 +102,68 @@ export default {
 
             this.textotoarenglon(renglonid);
             this.insertar_renglon(renglonid, "");
-            $("#txtacorde_" + (renglonid + 1)).focus();
-
             var renglon = this.value.renglones[renglonid];
             renglon.editando = false;
+            this.value.renglones[renglonid + 1].editando = true;
+            this.$forceUpdate();
+
+            $("#txtacorde_" + (renglonid + 1)).focus();
+
         },
+
+        enteren_arriba(renglonid) {
+            if (renglonid != 0) {
+
+                var renglon = this.value.renglones[renglonid];
+                renglon.editando = false;
+                this.value.renglones[renglonid - 1].editando = true;
+                this.$forceUpdate();
+                $("#txtacorde_" + (renglonid - 1)).focus();
+            }
+        },
+        enteren_abajo(renglonid) {
+            if (renglonid < this.value.renglones.length) {
+
+                var renglon = this.value.renglones[renglonid];
+                renglon.editando = false;
+                this.value.renglones[renglonid + 1].editando = true;
+                this.$forceUpdate();
+                $("#txtacorde_" + (renglonid + 1)).focus();
+            }
+        },
+        enteren_delete(renglonid) {
+            var renglon = this.value.renglones[renglonid];
+            if (renglon.acordesentexto == "") {
+                this.value.renglones.splice(renglonid, 1);
+
+                this.value.renglones[renglonid - 1].editando = true;
+                this.$forceUpdate();
+                const input = document.getElementById("txtacorde_" + (renglonid - 1));
+                input.focus();
+                input.selectionStart = 0;
+                input.selectionEnd = 0;
+
+                //$("#txtacorde_" + (renglonid + 1)).focus();
+            }
+        },
+        enteren_backspace(renglonid) {
+            var renglon = this.value.renglones[renglonid];
+            if (renglon.acordesentexto == "") {
+                this.value.renglones.splice(renglonid, 1);
+
+
+                this.value.renglones[renglonid - 1].editando = true;
+                this.$forceUpdate();
+                const input = document.getElementById("txtacorde_" + (renglonid - 1));
+                input.focus();
+
+
+            }
+        },
+        enteren_esc(renglonid) {
+            console.log(`La tecla esc se presionó en el elemento con renglonid ${renglonid}`);
+        },
+    
 
         async pegarTexto(renglonid, clipboard)
         {

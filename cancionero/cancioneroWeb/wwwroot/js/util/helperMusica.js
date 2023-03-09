@@ -40,9 +40,14 @@
             { "nombre": "F", "numero": 8 },
             { "nombre": "G", "numero": 10 }
         ]
+        let notaBajo = null;
 
-
-
+        let spl = textoentrada.split("/");
+        if (spl.length > 1)
+        {
+            textoentrada = spl[0];
+            notaBajo = this.nuevanota(spl[1]);
+        }
 
         let textoMayuscula = textoentrada.toUpperCase();
         const nota = notas.find(
@@ -52,7 +57,7 @@
 
         try {
             if (textoentrada[0] == '*' || textoentrada[0] == 'x') {
-                let repeticion = textoentrada[1];
+                let repeticion = textoentrada.replace("*", "").replace("x", "");
                 return {
                     nombre: "x" + repeticion,
                     repetir: parseInt(repeticion),
@@ -80,7 +85,8 @@
             };
         }
 
-        if (!nota) {
+        if (!nota)
+        {
             return {
                 nombre: textoentrada,
                 numeroNota: 0,
@@ -109,11 +115,32 @@
             textoMayuscula = textoMayuscula.replace("5", "");
         }
 
+        var toNotabjo
+        if (notaBajo)
+        {
+            if (!notaBajo.decodificadaOk) {
 
-
-        if (textoMayuscula != "") {
+                return {
+                    nombre: textoentrada,
+                    numeroNota: 0,
+                    mayor: true,
+                    numeroModificador: 0,
+                    decodificadaOk: false
+                };
+            }
+            else {
+                textoentrada = textoentrada + "/" + spl[1];
+                toNotabjo = {
+                    numeroNota: notaBajo.numeroNota,
+                    mayor: notaBajo.mayor
+                    }
+            }
+        }
+        if (textoMayuscula != "")
+        {
 
             return {
+                notabajo: toNotabjo,
                 nombre: textoentrada,
                 numeroNota: 0,
                 mayor: true,
@@ -141,6 +168,9 @@
         str = str.replace("(", "( ");
         str = str.replace(")", "( ");
         str = str.replace("|", "| ");
+        str = str.replace("* ", "*");
+        str = str.replace("x ", "x");
+        str = str.replace("X ", "x");
         str = str.replace(/\s+/g, ' ');
 
         // Separar por espacios y agrupar lo que está entre !
@@ -198,7 +228,7 @@
     {
         var renglon = {
             acordesentexto: texto,
-            tipo: "musica",
+            tipo: "",
             acordes: [],
             letra: "",
         }
@@ -217,6 +247,9 @@
                     }
                 })
             });
+        if (totalAcordes > 0)
+            renglon.tipo = "musica";
+
             renglon.letra = "";
             if (totalAcordesConErrores >= 2)
             {

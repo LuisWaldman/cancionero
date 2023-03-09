@@ -1,0 +1,47 @@
+﻿
+<div class="header">
+
+    <div>
+        <button v-on:click="Click_ActualizarCancion">
+            <i class="fas fa-arrows-rotate"></i>
+        </button>
+    </div>
+    <div class="divNombre" v-if="!actualizando_cancion">
+        {{ value.nombre }}
+    </div>
+    <div class="nav-item" v-if="actualizando_cancion">
+        <select class="divNombre" v-model="id_cancionseleccionada" v-on:change="Cambio_seleccion()" v-on:focusout="Cambio_seleccion()">
+            <option v-for="(canciondi, cancion_id) in canciones" :value="cancion_id">
+                {{ canciondi.nombre }}
+            </option>
+        </select>
+    </div>
+
+    <div>
+        <input class="tempo" type="number" v-model="value.tempo" />
+    </div>
+
+    <div>
+        <button v-on:click="Click_Stop()">
+            <i class="fas fa-stop"></i>
+        </button>
+    </div>
+
+    <div>
+        <button v-if="!value.tocando" v-on:click="Click_Play()">
+            <i class="fas fa-play"></i>
+        </button>
+    </div>
+    <div>
+        <button v-if="value.tocando" v-on:click="Click_Pause()">
+            <i class="fas fa-pause"></i>
+        </button>
+    </div>
+
+
+    <input type="range" v-model="value.sonandocuarto" min="0" :max="value.compaces" />
+    <input v-model="value.sonandocuarto" type="number" /> <span>/  {{ value.compaces }}</span>
+
+
+
+</div>

@@ -40,6 +40,7 @@
             <div class="divNombre" v-if="!actualizando_cancion">
                 {{ EditandoCancion.Nombre }} - {{ EditandoCancion.Autor }}
             </div>
+            <input type="checkbox" v-model="editandoAcordes" />
 
 
             <div class="nav-item" v-if="actualizando_cancion">
@@ -287,13 +288,10 @@
                             
                         
                         </div>
-
                         <div v-if="!editandoAcordes" class="clsNota" :class="{'beatbateriaactivo': tocando && (tocandocompas === nota.compas) }"
                              v-for="nota in p.Notas">
                             {{ nota.Nombre }}
                         </div>
-
-
                     </div>
 
                     <div>

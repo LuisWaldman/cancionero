@@ -39,8 +39,8 @@
     </div>
 
 
-    <input type="range" v-model="value.sonandocuarto" min="0" :max="value.compaces" />
-    <input v-model="value.sonandocuarto" type="number" /> <span>/  {{ value.compaces }}</span>
+    <input type="range" v-model="value.sonandocuarto" v-on:change="cambio_cuarto_usuario" min="0" :max="value.compaces" />
+    <input v-model="value.sonandocuarto" type="number" v-on:change="cambio_cuarto_usuario" /> <span>/  {{ value.compaces }}</span>
 
 
 

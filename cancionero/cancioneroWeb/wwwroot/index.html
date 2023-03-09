@@ -49,11 +49,13 @@
 
     <div id="app">
         <micabecera :value="EditandoCancion" :canciones="CancionesDisponibles"
-                    @cargocancion="event_cargocancion">
+                    @cargocancion="event_cargocancion"
+                    @sonandocuarto="event_sonandocuarto"
+                    >
 
         </micabecera>
         <mimusico></mimusico>
-        <micancion :value="EditandoCancion" @cancioneditada="event_cancioneditada"></micancion>
+        <micancion :value="EditandoCancion" @cancioneditada="event_cancioneditada" ref="micancionComponent"></micancion>
 
         <button v-on:click="guardarcancion">IMPRIMIR JSON CANCION</button>
 
