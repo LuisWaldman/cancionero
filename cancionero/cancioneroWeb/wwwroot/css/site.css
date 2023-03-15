@@ -13,6 +13,10 @@ html {
   padding: 10px;
 }
 
+.acordeeditar {
+    width: 200px;
+}
+
 select {
     background-color: blanchedalmond;
 }
@@ -72,6 +76,12 @@ body {
 .divNombre {
   width: 400px;
   margin-left: 10px;
+}
+
+
+.divTono {
+    width: 100px;
+    margin-left: 10px;
 }
 
 #containerCancion {
@@ -135,6 +145,14 @@ body {
     padding: 3px;
 }
 
+.notasinstrumento {
+    display: flex;
+}
+.cuartoinstrumento {
+    display: flex;
+    border: 1px solid;
+    margin: 2px;
+}
 
 .instrumentobaterista {
     font-size: 20px;
@@ -149,10 +167,11 @@ body {
 
 .bateristabeat {
     border: 1px solid;
-    width: 40px;
-    height: 40px;
-    margin: 5px;
+    width: 20px;
+    height: 20px;
+    margin: 2px;
 }
+
 
 .bateristabeattocado {
     border: 1px solid;
@@ -306,4 +325,89 @@ body {
 .sonandocuarto {
     border: 1px solid;
     background-color: #eff568
+}
+/* POPUP ADMIN TEMAS*/
+
+.popup {
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el popup */
+    z-index: 9999; /* Aseguramos que el popup aparezca por encima de otros elementos */
+}
+
+.content {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%); /* Centramos el contenido vertical y horizontalmente */
+    background-color: #fff; /* Fondo del contenido del popup */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra para el borde del contenido */
+}
+.columnaspopup {
+    display: flex;
+}
+
+
+.popup-canciones-locals {
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.popup-canciones-remotas {
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid black
+}
+
+.containerCanciones {
+    height: 400px;
+    overflow-y: auto;
+}
+
+.filtros {
+    display: flex;
+    overflow-x: auto;
+}
+.filtro {
+    display: flex-wrap;
+}
+
+.headerFiltro {
+    width: 150px;
+    
+}
+
+.notaenctrl {
+    border: 1px;
+    display: flex;
+}
+.notaslist {
+    display: flex;
+}
+
+
+.notalist {
+    display: flex;
+    border: 1px solid;
+    margin-left: 4px;
+}
+
+.notasMusico {
+    display: flex;
+}
+
+.notaimagenmusico {
+    width: 90%;
+    height: 90%;
+}
+
+.notainstrumento {
+    width: 70px;
+    border: 1px solid;
 }

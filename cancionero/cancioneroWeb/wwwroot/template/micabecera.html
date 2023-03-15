@@ -16,6 +16,18 @@
             </option>
         </select>
     </div>
+    <div class="nav-item" v-if="actualizando_cancion">
+        <button v-on:click="Click_MasCanciones">
+            <i class="fas fa-plus"></i>
+        </button>
+    </div>
+
+    <div class="nav-item">
+        <div class="divTono">
+            <minotaedit :value="value.tono"></minotaedit>
+        </div>
+    </div>
+
 
     <div>
         <input class="tempo" type="number" v-model="value.tempo" />
@@ -45,3 +57,4 @@
 
 
 </div>
+<cancionesadmin :value="administrandoarchivos" ref="administrador" ></cancionesadmin>

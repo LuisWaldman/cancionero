@@ -8,6 +8,7 @@
             actualizando_cancion: true,
             editandoAcordes: false,
             actualizando_cancion: false,
+            administrandoarchivos: false,
 
         }
     },
@@ -18,6 +19,9 @@
     methods: {
         Click_ActualizarCancion() {
             this.actualizando_cancion = true;
+        },
+        Click_MasCanciones() {
+            this.$refs.administrador.iniciar();
         },
         Click_Play()
         {
@@ -47,12 +51,12 @@
         },
         Click_Pause()
         {
-            console.log("pausa");
             clearInterval(this.id_temporizador);
             this.value.tocando = false;
         },
         Cambio_seleccion()
         {
+
             this.actualizando_cancion = false;
             this.$emit('cargocancion', this.canciones[this.id_cancionseleccionada]);
         },

@@ -1,0 +1,15 @@
+﻿<div v-if="editando" >
+    <input v-model="value.nombre" v-on:change="cambioeditando" v-on:focusout="cambioeditando" />
+</div>
+<div v-if="!editando"  v-on:click="click_editar">
+    <div class="notaenctrl" v-if="value.decodificadaOk">
+        <div>{{ nombreNotas[value.numeroNota] }}</div>
+        <div v-if="!value.mayor">m</div>
+        <div v-if="value.numeroModificador !=0">{{ value.numeroModificador}}</div>
+        <div v-if="value.notaBajo">/{{ nombreNotas[value.notaBajo.numeroNota] }}</div>
+
+    </div>
+    <div class="acordeconerror acordeeditar" v-if="!value.decodificadaOk">
+        {{ value.nombre }}
+    </div>
+</div>

@@ -361,6 +361,7 @@ ControladorBandas = {
                 ;
             });
     },
+    
     ActualizarTempo: function (appVue)
     {
 

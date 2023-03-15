@@ -1,0 +1,120 @@
+﻿<div class="popup" v-if="visible">
+    <div class="content">
+
+
+        <div class="columnaspopup">
+            <div class="popup-canciones-locals">
+                <h3>Lista de canciones locales</h3>
+                <div class="containerCanciones">
+                    <div v-for="(cancion, index) in cancionesLocales" :key="index">
+                        {{ cancion.nombre }}
+                        <button @click="borrarCancion(index)">Borrar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="popup-canciones-remotas">
+                <h3>Lista de canciones remotas</h3>
+                <div>
+                    <div class="filtros">
+                        <div class="filtro">
+                            <div class="headerFiltro">Nombre</div>
+                            <input class="inputfiltro" v-on:change="cambiofiltro" v-model="filtroNombre" />
+                        </div>
+
+                        <div class="filtro">
+                            <div class="headerFiltro">Banda</div>
+                            <input class="inputfiltro" v-on:change="cambiofiltro" v-model="filtroBanda" />
+                        </div>
+
+                    </div>
+                    <div class="filtros">
+                        <div class="filtro">
+                            <div class="headerFiltro">Tono</div>
+                            <input class="inputfiltro" v-model="filtroNombre" />
+                        </div>
+                        <div class="filtro">
+                            <div class="headerFiltro">Acordes</div>
+                            <input class="inputfiltro" v-model="filtroNombre" />
+                        </div>
+
+                        <div class="filtro">
+                            <div class="headerFiltro">Nro Acordes</div>
+                            <input class="inputfiltro" type="number" v-model="filtroNombre" />
+                        </div>
+                    </div>
+                    <div class="filtros">
+
+                        <div class="filtro">
+                            <div class="headerFiltro">Tempo</div>
+                            <select class="inputfiltro" v-on:change="cambiofiltro" v-model="filtroTempo">
+                                <option value=""></option>
+                                <option value="0,60">menos de 60</option>
+                                <option value="60,80">60 a 80</option>
+                                <option value="80,100">80 a 100</option>
+                                <option value="100,120">menos de 60</option>
+                                <option value="120,140">menos de 60</option>
+                                <option value="120,140">140 a 160</option>
+                                <option value="140,160">140 a 160</option>
+                                <option value="160,2000">,as de 160</option>
+                            </select>
+                        </div>
+                        <div class="filtro">
+                            <div class="headerFiltro">Bailable</div>
+                            <select class="inputfiltro" v-on:change="cambiofiltro" v-model="filtroBailable">
+                                <option value=""></option>
+                                <option value="1">1/5</option>
+                                <option value="2">2/5</option>
+                                <option value="3">3/5</option>
+                                <option value="4">4/5</option>
+                                <option value="5">5/5</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="containerCanciones">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Cancion</th>
+                                <th>Tempo</th>
+                                <th>Bailable</th>
+                                <th>Tono</th>>
+                                <th>Acordes</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr v-for="(cancion, index) in cancionesFiltradas" :key="index">
+                                <td>{{ cancion.Nombre }} - {{ cancion.Banda }}</td>
+                                <td>{{ cancion.Tempo }}</td>
+                                <td>
+                                    <div v-if="cancion.Danceability < 0.2">1/5</div>
+                                    <div v-if="cancion.Danceability > 0.2 && cancion.Danceability < 0.4">2/5</div>
+                                    <div v-if="cancion.Danceability > 0.4 && cancion.Danceability < 0.6">3/5</div>
+                                    <div v-if="cancion.Danceability > 0.6 && cancion.Danceability < 0.8">4/5</div>
+                                    <div v-if="cancion.Danceability > 0.8">5/5</div>
+                                </td>
+                                <td v-if="cancion.Tono">{{ cancion.Tono.NroNota }}</td>
+                                <td>
+
+                                        <!-- {{ cancion.Notas }}-->
+                                </td>
+                                <td>
+                                    <button @click="agregarCancion(index)">Agregar</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="piepopup">
+            <button v-on:click="ckick_listo">Listo</button>
+
+        </div>
+    </div>
+</div>

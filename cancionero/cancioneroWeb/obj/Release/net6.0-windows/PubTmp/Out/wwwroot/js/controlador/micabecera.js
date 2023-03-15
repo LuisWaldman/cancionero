@@ -8,6 +8,7 @@
             actualizando_cancion: true,
             editandoAcordes: false,
             actualizando_cancion: false,
+            administrandoarchivos: true,
 
         }
     },
@@ -18,6 +19,9 @@
     methods: {
         Click_ActualizarCancion() {
             this.actualizando_cancion = true;
+        },
+        Click_MasCanciones() {
+            this.$refs.administrador.iniciar();
         },
         Click_Play()
         {
@@ -36,18 +40,23 @@
         AvanzarCuarto: function (app)
         {
             this.value.sonandocuarto++;
+            this.$emit('sonandocuarto', this.value.sonandocuarto);
             if (this.value.sonandocuarto > this.value.compaces)
                 this.Click_Stop();
 
         },
+        cambio_cuarto_usuario: function () {
+
+            this.$emit('sonandocuarto', this.value.sonandocuarto);
+        },
         Click_Pause()
         {
-            console.log("pausa");
             clearInterval(this.id_temporizador);
             this.value.tocando = false;
         },
         Cambio_seleccion()
         {
+
             this.actualizando_cancion = false;
             this.$emit('cargocancion', this.canciones[this.id_cancionseleccionada]);
         },

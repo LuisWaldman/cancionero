@@ -35,12 +35,16 @@
             { "nombre": "A#", "numero": 1 },
             { "nombre": "B", "numero": 2 },
             { "nombre": "C", "numero": 3 },
+            { "nombre": "C#", "numero": 4 },
             { "nombre": "D", "numero": 5 },
+            { "nombre": "D#", "numero": 6 },
             { "nombre": "E", "numero": 7 },
             { "nombre": "F", "numero": 8 },
-            { "nombre": "G", "numero": 10 }
+            { "nombre": "F#", "numero": 9},
+            { "nombre": "G", "numero": 10 },
+            { "nombre": "G#", "numero": 11 }
         ]
-        let notaBajo = null;
+        let notaBajo = undefined;
 
         let spl = textoentrada.split("/");
         if (spl.length > 1)
@@ -153,13 +157,14 @@
 
 
 
-        const numeroNota = notas.indexOf(nota);
         return {
             nombre: textoentrada,
-            numeroNota: numeroNota,
+            numeroNota: nota.numero,
             mayor: esMayor,
             numeroModificador: numeroModificador,
-            decodificadaOk: true
+            decodificadaOk: true,
+            notaBajo: notaBajo
+
         };
     },
 

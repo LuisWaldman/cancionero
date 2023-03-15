@@ -1,0 +1,30 @@
+﻿
+<div id="baterista" class="musico" >
+    <div class="desarrolloMusico">
+        <div>
+            <img src="images/baterista.png" id="imgBaterista" />
+        </div>
+
+
+        <div>
+            <button v-if="!value.tocando" v-on:click="Click_PlayBateria()">
+                <i class="fas fa-play"></i>
+            </button>
+            <button v-if="value.tocando" v-on:click="Click_PauseBateria()">
+                <i class="fas fa-pause"></i>
+            </button>
+        </div>
+
+
+        <div>
+            <div class="instrumento" v-for="instrumento in value.instrumentos">
+                <div class="instrumentobaterista">{{ instrumento.numero }}</div>
+
+                <div class="bateristabeat" :class="{ beatbateriaactivo: beatid == value.tocandobeat}" v-for="(b, beatid) in instrumento.beat" v-on:click="cambiarbeat_click(instrumento, beatid)">
+                    <div class="bateristabeattocado" v-if="b"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

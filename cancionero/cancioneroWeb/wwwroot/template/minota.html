@@ -1,0 +1,20 @@
+﻿
+<div class="notaenctrl" v-if="value.NroNota">
+    <div>{{ nombreNotas[value.NroNota] }}</div>
+    <div v-if="!value.Modo">{{value.Modo}}</div>
+    <div v-if="value.NroModificador !=0">{{ value.NroModificador}}</div>
+</div>
+<div class="notaenctrl" v-if="value.decodificadaOk && !(value.tipo =='repeat' || value.tipo =='init')">
+
+    <div>{{ nombreNotas[value.numeroNota] }}</div>
+    <div v-if="!value.mayor">m</div>
+    <div v-if="value.numeroModificador !=0">{{ value.numeroModificador}}</div>
+    <div v-if="value.notaBajo">/{{ nombreNotas[value.notaBajo.numeroNota] }}</div>
+    
+</div>
+<div class="notaenctrl" v-if="value.decodificadaOk && (value.tipo =='repeat' || value.tipo =='init')">
+    {{ value.nombre }}
+</div>
+    <div class="acordeconerror" v-if="!value.decodificadaOk">
+        {{ value.nombre }}
+    </div>

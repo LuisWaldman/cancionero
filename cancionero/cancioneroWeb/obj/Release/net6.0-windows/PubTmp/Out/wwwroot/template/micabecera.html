@@ -16,6 +16,14 @@
             </option>
         </select>
     </div>
+    <div class="nav-item" v-if="actualizando_cancion">
+
+
+        <button v-on:click="Click_MasCanciones">
+            <i class="fas fa-plus"></i>
+        </button>
+    </div>
+    
 
     <div>
         <input class="tempo" type="number" v-model="value.tempo" />
@@ -39,9 +47,10 @@
     </div>
 
 
-    <input type="range" v-model="value.sonandocuarto" min="0" :max="value.compaces" />
-    <input v-model="value.sonandocuarto" type="number" /> <span>/  {{ value.compaces }}</span>
+    <input type="range" v-model="value.sonandocuarto" v-on:change="cambio_cuarto_usuario" min="0" :max="value.compaces" />
+    <input v-model="value.sonandocuarto" type="number" v-on:change="cambio_cuarto_usuario" /> <span>/  {{ value.compaces }}</span>
 
 
 
 </div>
+<cancionesadmin :value="administrandoarchivos" ref="administrador" ></cancionesadmin>

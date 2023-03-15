@@ -1,19 +1,92 @@
-﻿import { createApp } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+﻿import { createApp } from './vueesm.js'
 import micabecera from './controlador/micabecera.js'
 import mirenglon from './controlador/mirenglon.js'
 import micancion from './controlador/micancion.js'
 import mimusico from './controlador/mimusico.js'
 import mipianista from './controlador/mipianista.js'
+import mibaterista from './controlador/mibaterista.js'
+import minota from './controlador/minota.js'
+
+import minotaedit from './controlador/minotaedit.js'
+
+import cancionesAdmin from './controlador/CancionesAdmin.js'
 
 import helperMusica from './util/helperMusica.js'
 
 // Crea Datos
 let Datos = {
     dataRecibida: '',
-    CancionesDisponibles: cancionesDefault,
-    EditandoCancion: {}
+    CancionesDisponibles: [],
+    EditandoCancion: {},
+    Musicos: []
 };
+function GetBaterista() {
+    var ret =
+    {
 
+        tipo: 'baterista',
+        instrumento_id: 117,
+        notas: [],
+        tempo: 100,
+        canal: 1,
+        volumen: 127,
+        tocandobeat: 4,
+        tocando: false,
+        tocandointervalId: null,
+        bateria_cargada: false,
+        viendo: false,
+    }
+
+
+    ret.notas.push(helperMidi.getNotaMusico(24));
+    ret.notas.push(helperMidi.getNotaMusico(51));
+    ret.notas.push(helperMidi.getNotaMusico(42));
+    ret.notas.push(helperMidi.getNotaMusico(84));
+
+    return ret;
+}
+
+
+function GetPianista() {
+    var ret =
+    {
+
+        tipo: 'pianista',
+        instrumento_id: 0,
+        notas: [],
+        tempo: 100,
+        canal: 2,
+        volumen: 127,
+        tocandobeat: 4,
+        tocando: false,
+        tocandointervalId: null,
+        bateria_cargada: false,
+        viendo: false,
+    }
+
+
+    for (var i = 33; i <= (33 + (12 * 3)); i++) {
+        ret.notas.push(helperMidi.getNotaMusico(i));
+    }
+    return ret;
+}
+Datos.Musicos.push(GetBaterista());
+/*
+for (var i = 33; i <= 33 + (12 * 3); i++) {
+    Datos.Musicos[0].notas.push(helperMidi.getNotaMusico(i));
+}*/
+
+
+/*
+ Notas Baterista
+*/
+
+
+let cancionesLocales = JSON.parse(localStorage.getItem('misCanciones'));
+if (!cancionesLocales) {
+    cancionesLocales = cancionesDefault;
+}
+Datos.CancionesDisponibles = cancionesLocales;
 
 let ControladorCancionero = {
     calcularletra: function (cancion) {
@@ -64,8 +137,8 @@ let ControladorCancionero = {
                     var ultimoacorde = renglonmusical.acordes[renglonmusical.acordes.length - 1];
                     if (ultimoacorde[3].nro_cuarto.length == 0)
                         ultimoacorde = renglonmusical.acordes[renglonmusical.acordes.length - 2];
-
-                    renglon.desdecuarto = primeracorde[0].nro_cuarto[repes];
+                    if (primeracorde)
+                        renglon.desdecuarto = primeracorde[0].nro_cuarto[repes];
                     var ultimocuarto = ultimoacorde[3].nro_cuarto;
                     renglon.hastacuarto = ultimocuarto[repes];
 
@@ -165,8 +238,8 @@ let ControladorCancionero = {
         
         var ret = {
             nombre: cancion.nombre,
+            banda: cancion.banda,
             tempo: cancion.tempo,
-            escala: cancion.escala,
             sonandocuarto: 0,
             sonando: false,
             renglones: [],
@@ -182,6 +255,22 @@ let ControladorCancionero = {
             var renglon = helperMusica.textotoarenglon(texto);
             renglon.esInicio = false;
             renglon.repite = 0;
+            if (ret.tono == undefined)
+            {
+                if (renglon.tipo == 'musica') {
+
+                    console.log("MUSIA");
+                    var primeracorde = renglon.acordes[0];
+                    var segundo = renglon.acordes[1];
+
+                    if (primeracorde[0].tipo == 'init') {
+                        primeracorde = segundo;
+                    }
+
+                    ret.tono = primeracorde[0];
+
+                }
+            }
 
             if (renglon.tipo == 'musica')
             {
@@ -243,57 +332,14 @@ let ControladorCancionero = {
 
 
 var cancion = {
-    tempo: 60,
-    nombre: "nueva",
-    renglones: [
-        "DO RE x3",
-        "UNA CANCIOn",
-        "SIMPLE PARA PODER",
-        "TOCAR TRANQUI",
-        "DO RE x3",
-        "UNA CANCIOn",
-        "SIMPLE PARA PODER",
-        "TOCAR TRANQUI",
-        "DO RE x3",
-        "UNA CANCIOn",
-        "SIMPLE PARA PODER",
-        "TOCAR TRANQUI",
-        "DO RE x3",
-        "UNA CANCIOn",
-        "SIMPLE PARA PODER",
-        "TOCAR TRANQUI",
-        "DO RE x3",
-        "UNA CANCIOn",
-        "SIMPLE PARA PODER",
-        "TOCAR TRANQUI",
-    ]
-};        
-/*
-var cancion = {
-    tempo: 111,
+    tempo: 100,
     nombre: "Nueva",
     renglones: [
-        ""
+        "A Bm D7 C/B",
+        "Una cancion"
     ]
+
 };
-var cancion = {
-    tempo: 60,
-    nombre: "nueva",
-    renglones: [
-        "DO RE x3",
-        "UNA CANCIOn",
-        "SIMPLE PARA PODER",
-        "TOCAR TRANQUI",
-    ]
-};        * /
-/*
-cancion = {
-    tempo: 111,
-    nombre: "solo c",
-    renglones: [
-            "C",
-        ]
-};*/
 
 async function cargarAplicacion() {
     const templates = document.querySelectorAll('.templatevue');
@@ -350,12 +396,15 @@ async function cargarAplicacion() {
                 return Datos;
             }
     });
-
-
+    
+    app.component('minota', minota);
+    app.component('minotaedit', minotaedit);
+    app.component('cancionesadmin', cancionesAdmin);
     app.component('micabecera', micabecera);
     app.component('mirenglon', mirenglon);
     app.component('micancion', micancion);
     app.component('mipianista', mipianista);
+    app.component('mibaterista', mibaterista);
     app.component('mimusico', mimusico);
     
     app.mount('#app');

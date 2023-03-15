@@ -15,14 +15,12 @@
                    v-on:keydown.delete="enteren_delete(renglonid)" 
                    v-on:keydown.backspace="enteren_backspace(renglonid)" 
                    v-on:keydown.esc="enteren_esc(renglonid)" 
-
-
                    @paste="onPaste" />
 
         </div>
 
         <div>
-
+            
             <div class="Musica" v-on:click="click_acorde(renglonid)"
                  :class="{
                    'mostrandoacordes': renglon.editando,
@@ -38,10 +36,9 @@
 
                     <div class="cuarto" v-for="cuarto in acorde"
                          :class="{
-                         'acordeconerror' : !cuarto.decodificadaOk,
                          'sonandocuarto' : incluye(cuarto, value.sonandocuarto)
                          }">
-                        {{ cuarto.nombre }}
+                            <minota :value="cuarto"></minota>
                     </div>
 
                 </div>
@@ -54,16 +51,15 @@
                    'nomostrandoacordes': !renglon.editando
                }">
 
-                <div v-if="value.renglones[renglon.id_musica] && renglon.id_musica != renglonid
+                <div class="Acorde"
+                     v-if="value.renglones[renglon.id_musica] && renglon.id_musica != renglonid
                      && (renglon.id_musica + 1 !=renglonid)
                      && (renglon.desdecuarto <= parseInt(value.sonandocuarto) && renglon.hastacuarto >= parseInt(value.sonandocuarto))
                      && value.tocando"
-                     class="Acorde"
                      :class="{
                         'acorde_init': acorde[0].tipo == 'init',
                         'acorde_repeat': acorde[0].tipo == 'repeat' }"
                      v-for="acorde in value.renglones[renglon.id_musica].acordes">
-
 
                     <div class="cuarto" v-for="cuarto in acorde"
                          :class="{
